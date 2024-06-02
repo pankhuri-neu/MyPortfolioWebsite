@@ -19,8 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {/* Add padding utility class directly */}
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
       </body>
     </html>
