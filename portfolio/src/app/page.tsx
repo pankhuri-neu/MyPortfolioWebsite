@@ -7,7 +7,7 @@ export default function Home() {
       <Navbar />
       <div
         className="container"
-        style={{ textAlign: "left", paddingTop: "150px", paddingLeft: "130px" }}
+        style={{ paddingTop: "150px", paddingLeft: "130px" }}
       >
         <div className="text-content">
           <h1 style={{ fontSize: "xxx-large", fontWeight: "600" }}>
@@ -25,6 +25,15 @@ export default function Home() {
             <br />
             startup!
           </p>
+        </div>
+        <div className="my_projects_logo">
+          <button className="logo-button">
+            <img
+              src="/images/my_projects.png"
+              alt="Logo"
+              className="logo-image"
+            />
+          </button>
         </div>
         <div className="imageContainer" style={{}}>
           <Image
