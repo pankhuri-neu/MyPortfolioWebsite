@@ -64,3 +64,127 @@ body {
 }
 
 /* zdfsdsssssssssssssssssssssssssssssssssssssssssssssssss */
+.button {
+  position: absolute;
+  top: 183px;
+  left: 1px;
+  height: 44px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #424955ff;
+  background: #00000000;
+  opacity: 1;
+  border: none;
+  border-radius: 4px;
+  gap: 6px;
+}
+
+.button .icon {
+  width: 16px;
+  height: 16px;
+  fill: #424955ff;
+}
+
+/* Hover */
+.button:hover {
+  color: #424955ff;
+  background: #eaecefff;
+}
+
+/* Pressed */
+.button:hover:active {
+  color: #424955ff;
+  background: #dee1e6ff;
+}
+
+/* Disabled */
+.button:disabled {
+  opacity: 0.4;
+}
+.text-projects {
+  /* position: absolute; */
+  /* top: 68px; */
+  /* left: 48px; */
+  font-family: "Sarabun", sans-serif;
+  font-size: 25px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #323842ff;
+}
+.button-browse-projects {
+  /* position: absolute; */
+  /* top: 947px;
+  left: 617px; */
+  margin-top: 5%;
+  margin-left: 43%;
+  margin-bottom: 1%;
+  /* position: absolute; */
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  height: 52px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #e34d73ff;
+  background: #00000000;
+  opacity: 1;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #e34d73ff;
+  border-style: solid;
+}
+
+/* Hover */
+.button-browse-projects:hover {
+  color: #d4214eff;
+  background: #00000000;
+}
+
+/* Pressed */
+.button-browse-projects:hover:active {
+  color: #ba1d44ff;
+  background: #00000000;
+}
+
+/* Disabled */
+.button-browse-projects:disabled {
+  opacity: 0.4;
+}
+
+.skills-image {
+  width: 70px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+.skills-heading {
+  /* position: absolute;
+  top: 56px;
+  left: 132px; */
+  font-family: Sarabun;
+  font-size: 52px;
+  line-height: 74px;
+  font-weight: 700;
+  color: #323842ff;
+}
+.life-motto-p {
+  padding-top: 30px;
+  width: 512px;
+  font-family: Open Sans;
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #323842ff;
+}
+.life-motto-div {
+  padding-top: 80px;
+}

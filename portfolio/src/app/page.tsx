@@ -7,7 +7,7 @@ export default function Home() {
       <Navbar />
       <div
         className="container"
-        style={{ paddingTop: "150px", paddingLeft: "130px" }}
+        style={{ paddingTop: "100px", paddingLeft: "130px" }}
       >
         <div className="text-content">
           <h1 style={{ fontSize: "xxx-large", fontWeight: "600" }}>
@@ -50,6 +50,7 @@ export default function Home() {
           isBlurred
           className="border-none bg-background/60 dark:bg-default-100/50 w-full max-w-[1150px] rounded-none"
           shadow="sm"
+          style={{ backgroundColor: "#F6FBF0FF" }}
         >
           <CardBody>
             <div className="grid grid-cols-12 md:grid-cols-24 gap-6 md:gap-4 items-center justify-center">
@@ -58,11 +59,14 @@ export default function Home() {
               <div className="flex flex-col col-span-12 md:col-span-14">
                 <div className="flex justify-between items-start">
                   <div className="flex flex-col gap-0">
-                    <h3 className="font-semibold text-foreground/90">
+                    <h3
+                      className="font-semibold text-foreground/90"
+                      style={{ color: "#81B72FFF" }}
+                    >
                       Frontend
                     </h3>
                     {/* <p className="text-small text-foreground/80">12 Tracks</p> */}
-                    <h1 className="text-large font-medium mt-1">Elderlcare</h1>
+                    <h1 className="text-projects">Elderlycare</h1>
                     <p className="text-small text-foreground/80">
                       Sint occaecat deserunt aliquip do occaecat ut quis.
                       Cupidatat magna fugiat quis sit duis est in volup
@@ -86,6 +90,24 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            <div className="flex justify-start mt-4">
+              <button className="button">
+                View Project
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 25 25"
+                  className="icon"
+                  width="16"
+                  height="16"
+                >
+                  <path
+                    style={{ fill: "#232326" }}
+                    d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"
+                    data-name="Left"
+                  />
+                </svg>
+              </button>
+            </div>
           </CardBody>
         </Card>
       </div>
@@ -94,6 +116,7 @@ export default function Home() {
           isBlurred
           className="border-none bg-background/60 dark:bg-default-100/50 w-full max-w-[1150px] rounded-none"
           shadow="sm"
+          style={{ backgroundColor: "#FDF2F4FF" }}
         >
           <CardBody>
             <div className="grid grid-cols-12 md:grid-cols-24 gap-6 md:gap-4 items-center justify-center">
@@ -102,11 +125,15 @@ export default function Home() {
               <div className="flex flex-col col-span-12 md:col-span-14">
                 <div className="flex justify-between items-start">
                   <div className="flex flex-col gap-0">
-                    <h3 className="font-semibold text-foreground/90">
+                    <h3
+                      className="font-semibold text-foreground/90"
+                      style={{ color: "#E34D73FF" }}
+                    >
                       Backend
                     </h3>
                     {/* <p className="text-small text-foreground/80">12 Tracks</p> */}
-                    <h1 className="text-large font-medium mt-1">Elderlcare</h1>
+                    <h1 className="text-projects">Oceanic Feeling</h1>
+
                     <p className="text-small text-foreground/80">
                       Sint occaecat deserunt aliquip do occaecat ut quis.
                       Cupidatat magna fugiat quis sit duis est in volup
@@ -127,6 +154,94 @@ export default function Home() {
                     alt="Logo"
                     className="logo-image"
                   />
+                </div>
+              </div>
+            </div>
+            <div className="flex justify-start mt-4">
+              <button className="button">
+                View Project
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 25 25"
+                  className="icon"
+                  width="16"
+                  height="16"
+                >
+                  <path
+                    style={{ fill: "#232326" }}
+                    d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"
+                    data-name="Left"
+                  />
+                </svg>
+              </button>
+            </div>
+          </CardBody>
+        </Card>
+      </div>
+      <div className="col-span-12 md:col-span-8">
+        <button className="button-browse-projects ">Browse All Projects</button>
+      </div>
+      <h1 className="skills-heading ml-12  mb-5 ">My skills</h1>
+      <div className="grid grid-cols-12 gap-4">
+        <div className="col-span-12 md:col-span-16 flex flex-wrap justify-around items-center gap-4 mt- md:mt-0">
+          <img src="/images/tech/css.png" alt="Logo" className="skills-image" />
+          <img
+            src="/images/tech/html.png"
+            alt="Logo"
+            className="skills-image"
+          />
+          <img
+            src="/images/tech/java.png"
+            alt="Logo"
+            className="skills-image"
+          />
+          <img src="/images/tech/js.png" alt="Logo" className="skills-image" />
+          <img src="/images/tech/php.png" alt="Logo" className="skills-image" />
+          <img
+            src="/images/tech/python.png"
+            alt="Logo"
+            className="skills-image"
+          />
+          <img src="/images/tech/sql.png" alt="Logo" className="skills-image" />
+        </div>
+      </div>
+
+      <div className="flex justify-center mt-16 w-full">
+        <Card
+          isBlurred
+          className="border-none bg-background/60 dark:bg-default-100/50 w-full max-w-[1150px] rounded-none"
+          shadow="sm"
+          style={{ backgroundColor: "#F6FBF0FF" }}
+        >
+          <CardBody>
+            <div className="grid  items-center justify-center">
+              <div className="relative "></div>
+
+              <div className="flex flex-col ">
+                <div className="flex justify-between items-start">
+                  <img
+                    src="/images/pics/pic1.png"
+                    alt="Logo"
+                    // className="logo-image"
+                  />
+
+                  <div className="life-motto-div">
+                    <h2
+                      className="font-semibold text-foreground/90 text-2xl md:text-2xl"
+                      style={{ color: "#E34D73FF" }}
+                    >
+                      Life's Moto
+                    </h2>
+                    {/* <p className="text-small text-foreground/80">12 Tracks</p> */}
+
+                    <p className="life-motto-p">
+                      "Embrace challenges, chase dreams, and code my way to
+                      success - from mastering algorithms to crafting innovative
+                      solutions. Each line of code is a step closer to my
+                      aspirations: conquering FAANG, pioneering change, and
+                      ultimately, building my own legacy. "
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
