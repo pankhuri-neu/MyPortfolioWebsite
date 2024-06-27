@@ -193,3 +193,12 @@ body {
   margin-top: 30px;
   margin-left: 12px;
 }
+.text-custom {
+  width: 466px;
+  height: 148px;
+  font-family: "Sarabun", sans-serif;
+  font-size: 52px;
+  line-height: 74px;
+  font-weight: 700;
+  color: #ffffff;
+}

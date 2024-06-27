@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar"; // Ensure this path is correct
+import Footer from "./components/Footer"; // Ensure this path is correct
 import { Card, CardBody, Button, Slider, CardFooter } from "@nextui-org/react";
 export default function Home() {
   return (
@@ -250,7 +251,7 @@ export default function Home() {
       </div>
       <h1 className="skills-heading ml-12  mb-5 ">Blogs</h1>
       <div className="flex flex-wrap gap-6 md:gap-4 justify-center mx-4 md:mx-8">
-        <Card className="max-w-[300px]">
+        <Card className="max-w-[300px] mb-4">
           <CardBody>
             <img src="/images/blogs/b1.png" alt="Logo" />
             <p>Make beautiful websites regardless of your design experience.</p>
@@ -259,7 +260,7 @@ export default function Home() {
             <small>June 27, 2024</small>
           </CardFooter>
         </Card>
-        <Card className="max-w-[300px]">
+        <Card className="max-w-[300px] mb-4">
           <CardBody>
             <img src="/images/blogs/b2.png" alt="Logo" />
             <p>Create responsive layouts with ease.</p>
@@ -268,7 +269,7 @@ export default function Home() {
             <small>June 27, 2024</small>
           </CardFooter>
         </Card>
-        <Card className="max-w-[300px]">
+        <Card className="max-w-[300px] mb-4">
           <CardBody>
             <img src="/images/blogs/b3.png" alt="Logo" />
             <p>Utilize powerful CSS utilities for custom designs.</p>
@@ -278,6 +279,7 @@ export default function Home() {
           </CardFooter>
         </Card>
       </div>
+      <Footer />
     </div>
   );
 }
