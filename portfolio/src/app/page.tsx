@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      import Image from 'next/image';
-      <div className="container mx-auto flex flex-col md:flex-row items-center pt-24 px-8 md:px-32 space-y-8 md:space-y-0 md:space-x-8">
+
+      <div className="container mx-auto flex flex-col md:flex-row items-center pt-32 px-8 md:px-32 space-y-8 md:space-y-0 md:space-x-8">
         <div className="text-content md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
             Hello 👋 , <br />I am Pankhuri <br />A Software Engineer
@@ -183,7 +183,9 @@ export default function Home() {
       <div className="col-span-12 md:col-span-8 flex justify-center">
         <button className="button-browse-projects">Browse All Projects</button>
       </div>
-      <h1 className="skills-heading ml-12  mb-5 ">My skills</h1>
+      <h1 className="skills-heading ml-12 mb-5 text-center text-3xl md:text-6xl">
+        My skills
+      </h1>
       <div className="grid grid-cols-12 gap-4">
         <div className="col-span-12 md:col-span-16 flex flex-wrap justify-around items-center gap-4 mt- md:mt-0">
           <img src="/images/tech/css.png" alt="Logo" className="skills-image" />
@@ -243,7 +245,9 @@ export default function Home() {
           </CardBody>
         </Card>
       </div>
-      <h1 className="skills-heading ml-12  mb-5 ">Blogs</h1>
+      <h1 className="skills-heading ml-12  mb-5 mt-8 text-center  text-3xl md:text-6xl">
+        Blogs
+      </h1>
       <div className="flex flex-wrap gap-6 md:gap-4 justify-center mx-4 md:mx-8">
         <Card className="max-w-[300px] mb-4">
           <CardBody>
