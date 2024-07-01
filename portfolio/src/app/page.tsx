@@ -6,46 +6,46 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <div
-        className="container"
-        style={{ paddingTop: "100px", paddingLeft: "130px" }}
-      >
-        <div className="text-content">
-          <h1 style={{ fontSize: "xxx-large", fontWeight: "600" }}>
+      import Image from 'next/image';
+      <div className="container mx-auto flex flex-col md:flex-row items-center pt-24 px-8 md:px-32 space-y-8 md:space-y-0 md:space-x-8">
+        <div className="text-content md:w-1/2 text-center md:text-left">
+          <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
             Hello 👋 , <br />I am Pankhuri <br />A Software Engineer
           </h1>
           <br />
           <br />
-          <p>
+          <p className="text-lg md:text-xl">
             a passionate computer science enthusiast pursuing my Master's at{" "}
-            <br />
+            {/* <br /> */}
             Northeastern University. With four years of software engineering{" "}
-            <br />
+            {/* <br /> */}
             experience in India, I'm on a mission to make waves in tech. Join{" "}
-            <br /> me as I chase my dreams of joining FAANG and building my own{" "}
-            <br />
+            {/* <br /> */}
+            me as I chase my dreams of joining FAANG and building my own{" "}
+            {/* <br /> */}
             startup!
           </p>
         </div>
-        <div className="my_projects_logo">
+        <div className="flex justify-center md:justify-start w-full md:w-auto">
           <button className="logo-button">
             <img
               src="/images/my_projects.png"
               alt="Logo"
-              className="logo-image"
+              className="w-32 h-32 md:w-40 md:h-40"
             />
           </button>
         </div>
-        <div className="imageContainer" style={{}}>
+        <div className="imageContainer flex justify-center md:justify-end w-full md:w-auto">
           <Image
             src="/images/profile.png" // Ensure this path is correct
             alt="Profile Picture"
             width={400}
             height={300}
+            className="rounded-lg"
           />
         </div>
       </div>
-
+      {/* till */}
       <div className="flex justify-center mt-16 w-full">
         <Card
           isBlurred
@@ -56,38 +56,38 @@ export default function Home() {
           <CardBody>
             <div className="grid grid-cols-12 md:grid-cols-24 gap-6 md:gap-4 items-center justify-center">
               <div className="relative col-span-12 md:col-span-10"></div>
-
               <div className="flex flex-col col-span-12 md:col-span-14">
-                <div className="flex justify-between items-start">
-                  <div className="flex flex-col gap-0">
+                <div className="flex flex-col md:flex-row justify-between items-start">
+                  <div className="flex flex-col gap-2 md:gap-0">
                     <h3
                       className="font-semibold text-foreground/90"
                       style={{ color: "#81B72FFF" }}
                     >
                       Frontend
                     </h3>
-                    {/* <p className="text-small text-foreground/80">12 Tracks</p> */}
                     <h1 className="text-projects">Elderlycare</h1>
                     <p className="text-small text-foreground/80">
                       Sint occaecat deserunt aliquip do occaecat ut quis.
                       Cupidatat magna fugiat quis sit duis est in volup
                     </p>
                   </div>
-                  <img
-                    src="/images/sample/e1.png"
-                    alt="Logo"
-                    className="logo-image"
-                  />
-                  <img
-                    src="/images/sample/e2.png"
-                    alt="Logo"
-                    className="logo-image"
-                  />
-                  <img
-                    src="/images/sample/e3.png"
-                    alt="Logo"
-                    className="logo-image"
-                  />
+                  <div className="flex space-x-4 mt-4 md:mt-0">
+                    <img
+                      src="/images/sample/e1.png"
+                      alt="Logo"
+                      className="logo-image"
+                    />
+                    <img
+                      src="/images/sample/e2.png"
+                      alt="Logo"
+                      className="logo-image"
+                    />
+                    <img
+                      src="/images/sample/e3.png"
+                      alt="Logo"
+                      className="logo-image"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -122,39 +122,38 @@ export default function Home() {
           <CardBody>
             <div className="grid grid-cols-12 md:grid-cols-24 gap-6 md:gap-4 items-center justify-center">
               <div className="relative col-span-12 md:col-span-10"></div>
-
               <div className="flex flex-col col-span-12 md:col-span-14">
-                <div className="flex justify-between items-start">
-                  <div className="flex flex-col gap-0">
+                <div className="flex flex-col md:flex-row justify-between items-start">
+                  <div className="flex flex-col gap-2 md:gap-0">
                     <h3
                       className="font-semibold text-foreground/90"
                       style={{ color: "#E34D73FF" }}
                     >
                       Backend
                     </h3>
-                    {/* <p className="text-small text-foreground/80">12 Tracks</p> */}
                     <h1 className="text-projects">Oceanic Feeling</h1>
-
                     <p className="text-small text-foreground/80">
                       Sint occaecat deserunt aliquip do occaecat ut quis.
                       Cupidatat magna fugiat quis sit duis est in volup
                     </p>
                   </div>
-                  <img
-                    src="/images/sample/e1.png"
-                    alt="Logo"
-                    className="logo-image"
-                  />
-                  <img
-                    src="/images/sample/e2.png"
-                    alt="Logo"
-                    className="logo-image"
-                  />
-                  <img
-                    src="/images/sample/e3.png"
-                    alt="Logo"
-                    className="logo-image"
-                  />
+                  <div className="flex space-x-4 mt-4 md:mt-0">
+                    <img
+                      src="/images/sample/e1.png"
+                      alt="Logo"
+                      className="logo-image"
+                    />
+                    <img
+                      src="/images/sample/e2.png"
+                      alt="Logo"
+                      className="logo-image"
+                    />
+                    <img
+                      src="/images/sample/e3.png"
+                      alt="Logo"
+                      className="logo-image"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -206,7 +205,6 @@ export default function Home() {
           <img src="/images/tech/sql.png" alt="Logo" className="skills-image" />
         </div>
       </div>
-
       <div className="flex justify-center mt-16 w-full">
         <Card
           isBlurred
@@ -215,35 +213,29 @@ export default function Home() {
           style={{ backgroundColor: "#F6FBF0FF" }}
         >
           <CardBody>
-            <div className="grid  items-center justify-center">
-              <div className="relative "></div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-center">
+              <div className="flex justify-center md:justify-end">
+                <img
+                  src="/images/pics/pic1.png"
+                  alt="Logo"
+                  className="w-48 h-48 min-w-[200px] min-h-[200px]"
+                />
+              </div>
 
-              <div className="flex flex-col ">
-                <div className="flex justify-between items-start">
-                  <img
-                    src="/images/pics/pic1.png"
-                    alt="Logo"
-                    // className="logo-image"
-                  />
-
-                  <div className="life-motto-div">
-                    <h2
-                      className="font-semibold text-foreground/90 text-2xl md:text-2xl"
-                      style={{ color: "#E34D73FF" }}
-                    >
-                      Life's Moto
-                    </h2>
-                    {/* <p className="text-small text-foreground/80">12 Tracks</p> */}
-
-                    <p className="life-motto-p">
-                      "Embrace challenges, chase dreams, and code my way to
-                      success - from mastering algorithms to crafting innovative
-                      solutions. Each line of code is a step closer to my
-                      aspirations: conquering FAANG, pioneering change, and
-                      ultimately, building my own legacy. "
-                    </p>
-                  </div>
-                </div>
+              <div className="flex flex-col items-center md:items-start">
+                <h2
+                  className="font-semibold text-foreground/90 text-2xl"
+                  style={{ color: "#E34D73FF" }}
+                >
+                  Life's Motto
+                </h2>
+                <p className="life-motto-p mt-4 text-center md:text-left">
+                  "Embrace challenges, chase dreams, and code my way to success
+                  - from mastering algorithms to crafting innovative solutions.
+                  Each line of code is a step closer to my aspirations:
+                  conquering FAANG, pioneering change, and ultimately, building
+                  my own legacy."
+                </p>
               </div>
             </div>
           </CardBody>

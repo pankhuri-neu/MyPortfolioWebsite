@@ -42,26 +42,31 @@ body {
   width: 100%;
   padding: 20px 130px;
 }
-.container {
-  display: flex;
-  align-items: center; /* Align items vertically centered */
-}
-.imageContainer {
-  /* padding-left: 260px; */
-}
 .logo-button {
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
+/* .container {
+  display: flex;
+  align-items: center; 
+} */
+.imageContainer {
+  /* padding-left: 260px; */
+}
+/* .logo-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+} */
 
 .logo-image {
   width: 100px; /* Adjust size as needed */
   height: auto; /* Maintain aspect ratio */
 }
-.text-content {
+/* .text-content {
   width: 50%;
-}
+} */
 
 /* zdfsdsssssssssssssssssssssssssssssssssssssssssssssssss */
 .button {
