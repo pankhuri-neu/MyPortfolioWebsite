@@ -4,12 +4,32 @@ import { FaInstagram, FaTwitter, FaLinkedin, FaEnvelope } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-10">
-      <div className="container mx-auto px-4">
-        <h2 className="text-custom mb-6">Say hello and let's work together!</h2>
+      <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between">
+        <div className="md:w-1/2">
+          <h2 className="text-custom mb-6">
+            Say hello and let's work together!
+          </h2>
+          <div className="mt-8 flex justify-center md:justify-start space-x-6">
+            <a href="#" className="text-gray-400 hover:text-gray-100">
+              <FaInstagram size={24} />
+              <span className="sr-only">Instagram</span>
+            </a>
+            <a href="#" className="text-gray-400 hover:text-gray-100">
+              <FaTwitter size={24} />
+              <span className="sr-only">Twitter</span>
+            </a>
+            <a href="#" className="text-gray-400 hover:text-gray-100">
+              <FaLinkedin size={24} />
+              <span className="sr-only">LinkedIn</span>
+            </a>
+            <a href="#" className="text-gray-400 hover:text-gray-100">
+              <FaEnvelope size={24} />
+              <span className="sr-only">Email</span>
+            </a>
+          </div>
+        </div>
 
-        {/* Social media links */}
-
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 mt-8 md:mt-0">
           <form className="space-y-4">
             <div>
               <label
@@ -49,25 +69,6 @@ const Footer = () => {
             </div>
           </form>
         </div>
-      </div>
-
-      <div className="mt-8 flex justify-center space-x-6">
-        <a href="#" className="text-gray-400 hover:text-gray-100">
-          <FaInstagram size={24} />
-          <span className="sr-only">Instagram</span>
-        </a>
-        <a href="#" className="text-gray-400 hover:text-gray-100">
-          <FaTwitter size={24} />
-          <span className="sr-only">Twitter</span>
-        </a>
-        <a href="#" className="text-gray-400 hover:text-gray-100">
-          <FaLinkedin size={24} />
-          <span className="sr-only">LinkedIn</span>
-        </a>
-        <a href="#" className="text-gray-400 hover:text-gray-100">
-          <FaEnvelope size={24} />
-          <span className="sr-only">Email</span>
-        </a>
       </div>
 
       <div className="mt-8 text-center text-gray-400">

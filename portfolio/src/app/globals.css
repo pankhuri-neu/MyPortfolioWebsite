@@ -126,9 +126,9 @@ body {
   /* position: absolute; */
   /* top: 947px;
   left: 617px; */
-  margin-top: 5%;
-  margin-left: 43%;
-  margin-bottom: 1%;
+  margin-top: 2%;
+  /* margin-left: 43%;*/
+  margin-bottom: 5%;
   /* position: absolute; */
   /* left: 50%; */
   /* transform: translateX(-50%); */
@@ -183,7 +183,7 @@ body {
 }
 .life-motto-p {
   padding-top: 30px;
-  width: 512px;
+  /* width: 512px; */
   font-family: Open Sans;
   font-size: 22px;
   line-height: 36px;

@@ -12,21 +12,23 @@ export default function Home() {
           <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
             Hello 👋 , <br />I am Pankhuri <br />A Software Engineer
           </h1>
+          <div className="flex justify-center md:hidden mt-4">
+            <img
+              src="/images/profile.png"
+              alt="Profile Picture"
+              className="w-60 h-70 rounded-lg"
+            />
+          </div>
           <br />
           <br />
           <p className="text-lg md:text-xl">
-            a passionate computer science enthusiast pursuing my Master's at{" "}
-            {/* <br /> */}
-            Northeastern University. With four years of software engineering{" "}
-            {/* <br /> */}
-            experience in India, I'm on a mission to make waves in tech. Join{" "}
-            {/* <br /> */}
-            me as I chase my dreams of joining FAANG and building my own{" "}
-            {/* <br /> */}
-            startup!
+            a passionate computer science enthusiast pursuing my Master's at
+            Northeastern University. With four years of software engineering
+            experience in India, I'm on a mission to make waves in tech. Join me
+            as I chase my dreams of joining FAANG and building my own startup!
           </p>
         </div>
-        <div className="flex justify-center md:justify-start w-full md:w-auto">
+        <div className="flex justify-center items-center w-full md:w-auto">
           <button className="logo-button">
             <img
               src="/images/my_projects.png"
@@ -35,7 +37,7 @@ export default function Home() {
             />
           </button>
         </div>
-        <div className="imageContainer flex justify-center md:justify-end w-full md:w-auto">
+        <div className="hidden md:flex justify-center md:justify-end w-full md:w-auto">
           <Image
             src="/images/profile.png" // Ensure this path is correct
             alt="Profile Picture"
@@ -178,8 +180,8 @@ export default function Home() {
           </CardBody>
         </Card>
       </div>
-      <div className="col-span-12 md:col-span-8">
-        <button className="button-browse-projects ">Browse All Projects</button>
+      <div className="col-span-12 md:col-span-8 flex justify-center">
+        <button className="button-browse-projects">Browse All Projects</button>
       </div>
       <h1 className="skills-heading ml-12  mb-5 ">My skills</h1>
       <div className="grid grid-cols-12 gap-4">
@@ -218,7 +220,7 @@ export default function Home() {
                 <img
                   src="/images/pics/pic1.png"
                   alt="Logo"
-                  className="w-48 h-48 min-w-[200px] min-h-[200px]"
+                  className="w-60 h-60 md:w-auto md:h-auto"
                 />
               </div>
 
