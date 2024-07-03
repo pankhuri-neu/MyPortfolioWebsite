@@ -245,9 +245,23 @@ export default function Home() {
           </CardBody>
         </Card>
       </div>
-      <h1 className="skills-heading ml-12  mb-5 mt-8 text-center  text-3xl md:text-6xl">
-        Blogs
-      </h1>
+      <div className="flex items-center justify-between mb-5 mt-8">
+        <h1 className="skills-heading text-3xl md:text-6xl ml-12">Blogs</h1>
+        {/* <button className="button flex items-center justify-center h-11 px-4 text-base font-normal text-pink-600 bg-transparent border-none rounded-md hover:bg-pink-100 hover:text-pink-600 active:bg-pink-200 disabled:opacity-40 ml-4">
+          View More
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            className="icon w-5 h-5 fill-current"
+          >
+            <path
+              d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm1 15H9v-2h2v2zm0-4H9V5h2v6z"
+              fill="#E34D73FF"
+            />
+          </svg>
+        </button> */}
+      </div>
+
       <div className="flex flex-wrap gap-6 md:gap-4 justify-center mx-4 md:mx-8">
         <Card className="max-w-[300px] mb-4">
           <CardBody>
