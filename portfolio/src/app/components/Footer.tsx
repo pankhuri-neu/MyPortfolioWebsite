@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between">
         <div className="md:w-1/2">
           <h2 className="text-custom mb-6">
-            Say hello and let's work together!
+            Say hello and let&apos;s work together!
           </h2>
           <div className="mt-8 flex justify-center md:justify-start space-x-6">
             <a href="#" className="text-gray-400 hover:text-gray-100">

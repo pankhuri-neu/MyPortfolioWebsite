@@ -11,7 +11,7 @@ const ContactPage = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center pt-32 px-8 md:px-32 space-y-8 md:space-y-0 md:space-x-8">
         <div className="text-content md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
-            Say hello and let's work <br />
+            Say hello and let&apos;s work <br />
             together!
           </h1>
           <br />
