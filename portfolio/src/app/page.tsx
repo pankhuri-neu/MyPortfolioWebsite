@@ -22,10 +22,11 @@ export default function Home() {
           <br />
           <br />
           <p className="text-lg md:text-xl">
-            a passionate computer science enthusiast pursuing my Master's at
+            a passionate computer science enthusiast pursuing my Master&aposs at
             Northeastern University. With four years of software engineering
-            experience in India, I'm on a mission to make waves in tech. Join me
-            as I chase my dreams of joining FAANG and building my own startup!
+            experience in India, I&aposm on a mission to make waves in tech.
+            Join me as I chase my dreams of joining FAANG and building my own
+            startup!
           </p>
         </div>
         <div className="flex justify-center items-center w-full md:w-auto">
@@ -231,14 +232,14 @@ export default function Home() {
                   className="font-semibold text-foreground/90 text-2xl"
                   style={{ color: "#E34D73FF" }}
                 >
-                  Life's Motto
+                  Life&aposs Motto
                 </h2>
                 <p className="life-motto-p mt-4 text-center md:text-left">
-                  "Embrace challenges, chase dreams, and code my way to success
-                  - from mastering algorithms to crafting innovative solutions.
+                  Embrace challenges, chase dreams, and code my way to success -
+                  from mastering algorithms to crafting innovative solutions.
                   Each line of code is a step closer to my aspirations:
                   conquering FAANG, pioneering change, and ultimately, building
-                  my own legacy."
+                  my own legacy
                 </p>
               </div>
             </div>
