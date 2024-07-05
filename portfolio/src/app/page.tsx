@@ -22,7 +22,7 @@ export default function Home() {
           <br />
           <br />
           <p className="text-lg md:text-xl">
-            a passionate computer science enthusiast pursuing my Master&aposs at
+            a passionate computer science enthusiast pursuing my Master&#39;s at
             Northeastern University. With four years of software engineering
             experience in India, I&aposm on a mission to make waves in tech.
             Join me as I chase my dreams of joining FAANG and building my own
