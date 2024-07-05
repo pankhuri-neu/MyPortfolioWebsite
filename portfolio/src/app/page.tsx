@@ -272,7 +272,7 @@ export default function Home() {
           </CardBody>
         </Card>
       </div>
-      <h1 className="sakills-heading ml-12 mb-5 text-center text-2xl md:text-5xl">
+      <h1 className="skills-heading ml-12 mb-5 text-center text-2xl md:text-5xl">
         Blogs
       </h1>
 

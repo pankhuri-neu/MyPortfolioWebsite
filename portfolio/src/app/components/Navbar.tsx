@@ -17,7 +17,8 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center text-black bg-white fixed w-full p-4 shadow-md z-50">
       <div className="relative">
-        <span
+        <Link
+          href="/"
           className="text_name"
           style={{
             fontFamily: "Sarabun, sans-serif",
@@ -29,7 +30,7 @@ const Navbar = () => {
           <span style={{ color: "#000000" }}>&lt;</span>
           <span style={{ color: "#F9629F" }}>Pankhuri Gupta</span>
           <span style={{ color: "#000000" }}>/&gt;</span>
-        </span>
+        </Link>
       </div>
 
       <div className="hidden md:flex space-x-6">
