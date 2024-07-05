@@ -32,7 +32,7 @@ const ContactPage = () => {
                   id="message"
                   className="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-pink-500 focus:border-pink-500 sm:text-base"
                   placeholder="Describe your project"
-                  rows="4"
+                  //  rows="4"
                 ></textarea>
               </div>
               <br />
