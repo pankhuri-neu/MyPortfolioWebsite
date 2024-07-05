@@ -36,7 +36,10 @@ const Navbar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="list-none px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-white duration-200 link-underline"
+            className="list-none px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200 link-underline"
+            style={{ transition: "color 0.2s" }} // Ensure smooth transition
+            onMouseEnter={(e) => (e.currentTarget.style.color = "#F9629F")}
+            onMouseLeave={(e) => (e.currentTarget.style.color = "")}
           >
             <Link href={`/${link.replace(" ", "").toLowerCase()}`}>{link}</Link>
           </li>
