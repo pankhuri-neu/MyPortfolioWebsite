@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "./components/Navbar"; // Ensure this path is correct
 import Footer from "./components/Footer"; // Ensure this path is correct
 import { Card, CardBody, Button, Slider, CardFooter } from "@nextui-org/react";
+import Script from "next/script";
 export default function Home() {
   return (
     <div>
@@ -24,19 +25,44 @@ export default function Home() {
           <p className="text-lg md:text-xl">
             a passionate computer science enthusiast pursuing my Master&#39;s at
             Northeastern University. With four years of software engineering
-            experience in India, I&aposm on a mission to make waves in tech.
+            experience in India, I&#39;m on a mission to make waves in tech.
             Join me as I chase my dreams of joining FAANG and building my own
             startup!
           </p>
         </div>
         <div className="flex justify-center items-center w-full md:w-auto">
-          <button className="logo-button">
+          {/* <button className="logo-button">
             <img
               src="/images/my_projects.png"
               alt="Logo"
               className="w-32 h-32 md:w-40 md:h-40"
             />
-          </button>
+          </button> */}
+          <div className="circle">
+            <div className="logo">
+              <div className="text">
+                <p>
+                  MY PROJECTS {"        "} MY PROJECTS {"        "} MY PROJECTS
+                </p>
+                <Script
+                  id="custom-script"
+                  dangerouslySetInnerHTML={{
+                    __html: `
+            (function() {
+              console.log('Custom script executed!');
+              const text = document.querySelector('.text p');
+              if (text) {
+                text.innerHTML = text.innerText.split("").map((char, i) => 
+                  \`<span style="transform:rotate(\${i * 9.2}deg)">\${char}</span>\`
+                ).join("");
+              }
+            })();
+          `,
+                  }}
+                />
+              </div>
+            </div>
+          </div>
         </div>
         <div className="hidden md:flex justify-center md:justify-end w-full md:w-auto">
           <Image
@@ -232,7 +258,7 @@ export default function Home() {
                   className="font-semibold text-foreground/90 text-2xl"
                   style={{ color: "#E34D73FF" }}
                 >
-                  Life&aposs Motto
+                  Life&#39;s Motto
                 </h2>
                 <p className="life-motto-p mt-4 text-center md:text-left">
                   Embrace challenges, chase dreams, and code my way to success -

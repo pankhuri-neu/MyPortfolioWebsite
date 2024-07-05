@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className="flex justify-between items-center text-black bg-white fixed w-full p-4 shadow-md z-50">
       <div className="relative">
         <span
-          className="text"
+          className="text_name"
           style={{
             fontFamily: "Sarabun, sans-serif",
             fontSize: "30px",
