@@ -139,9 +139,9 @@ const ElderlyCarePage = () => {
                   Testimonials
                 </h2>
                 <p className="life-motto-p mt-4 text-center md:text-left">
-                  Very Nice Project I will give 100 out of 100 for the efforts
-                  and the design of the webapp created by pankhuri gupta, she is
-                  an exectiopnal frontend develope
+                  &#34Very Nice Project I will give 100 out of 100 for the
+                  efforts and the design of the webapp created by pankhuri
+                  gupta, she is an exectiopnal frontend develope&#34
                 </p>{" "}
                 <br />
                 <p className="life-motto-p mt-4 text-center md:text-left">
