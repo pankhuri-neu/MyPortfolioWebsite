@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar"; // Ensure this path is correct
 import Footer from "./components/Footer"; // Ensure this path is correct
 import { Card, CardBody, Button, Slider, CardFooter } from "@nextui-org/react";
 import Script from "next/script";
+import Link from "next/link";
 export default function Home() {
   return (
     <div>
@@ -64,6 +65,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+
         <div className="hidden md:flex justify-center md:justify-end w-full md:w-auto">
           <Image
             src="/images/profile.png" // Ensure this path is correct
@@ -96,8 +98,11 @@ export default function Home() {
                     </h3>
                     <h1 className="text-projects">Elderlycare</h1>
                     <p className="text-small text-foreground/80">
-                      Sint occaecat deserunt aliquip do occaecat ut quis.
-                      Cupidatat magna fugiat quis sit duis est in volup
+                      A web-based solution to improve healthcare accessibility
+                      for the elderly, EC-Buddy AI assistant , book doctor
+                      <br /> appointments and empower doctors with real-time
+                      access, enhancing operational efficiency and patient
+                      satisfaction
                     </p>
                   </div>
                   <div className="flex space-x-4 mt-4 md:mt-0">
@@ -121,22 +126,24 @@ export default function Home() {
               </div>
             </div>
             <div className="flex justify-start mt-4">
-              <button className="button">
-                View Project
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 25 25"
-                  className="icon"
-                  width="16"
-                  height="16"
-                >
-                  <path
-                    style={{ fill: "#232326" }}
-                    d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"
-                    data-name="Left"
-                  />
-                </svg>
-              </button>
+              <Link href="/elderlycare">
+                <button className="button">
+                  View Project
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 25 25"
+                    className="icon"
+                    width="16"
+                    height="16"
+                  >
+                    <path
+                      style={{ fill: "#232326" }}
+                      d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"
+                      data-name="Left"
+                    />
+                  </svg>
+                </button>
+              </Link>
             </div>
           </CardBody>
         </Card>

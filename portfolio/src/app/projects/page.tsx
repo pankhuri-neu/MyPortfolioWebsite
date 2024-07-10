@@ -1,12 +1,25 @@
-import React from "react";
-import Image from "next/image";
+"use client";
+import React, { useEffect } from "react";
 import Navbar from "../components/Navbar"; // Ensure this path is correct
 import Footer from "../components/Footer"; // Ensure this path is correct
-import Script from "next/script";
-import { Card, CardBody, Button, Slider, CardFooter } from "@nextui-org/react";
+import { Card, CardBody } from "@nextui-org/react";
 import Link from "next/link";
 
-const ProjectsPage = () => {
+const ProjectsPage: React.FC = () => {
+  useEffect(() => {
+    console.log("Custom script executed!");
+    const textElement = document.querySelector(".text p") as HTMLElement;
+    if (textElement) {
+      textElement.innerHTML = textElement.innerText
+        .split("")
+        .map(
+          (char, i) =>
+            `<span style="transform:rotate(${i * 9.2}deg)">${char}</span>`
+        )
+        .join("");
+    }
+  }, []);
+
   return (
     <div>
       <Navbar />
@@ -29,25 +42,7 @@ const ProjectsPage = () => {
           <div className="circle">
             <div className="logo">
               <div className="text">
-                <p>
-                  MY PROJECTS {"        "} MY PROJECTS {"        "} MY PROJECTS
-                </p>
-                <Script
-                  id="custom-script"
-                  dangerouslySetInnerHTML={{
-                    __html: `
-            (function() {
-              console.log('Custom script executed!');
-              const text = document.querySelector('.text p');
-              if (text) {
-                text.innerHTML = text.innerText.split("").map((char, i) => 
-                  \`<span style="transform:rotate(\${i * 9.2}deg)">\${char}</span>\`
-                ).join("");
-              }
-            })();
-          `,
-                  }}
-                />
+                <p>MY PROJECTS </p>
               </div>
             </div>
           </div>
