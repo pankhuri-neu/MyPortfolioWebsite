@@ -185,9 +185,7 @@ const ElderlyCarePage = () => {
                   Testimonials
                 </h2>
                 <p className="life-motto-p mt-4 text-center md:text-left">
-                  Very Nice Project I will give 100 out of 100 for the efforts
-                  and the design of the webapp created by pankhuri gupta, she is
-                  an exectiopnal frontend developer
+                  Excellent idea and product
                 </p>{" "}
                 <br />
                 <p className="life-motto-p mt-4 text-center md:text-left">
@@ -200,19 +198,27 @@ const ElderlyCarePage = () => {
       </div>
       <br />
       <br />
-      <div className="text-center md:text-left">
-        <h2 className="skills-heading ml-12 mb-5 text-center text-xl md:text-4xl">
-          References
-        </h2>
-        <ul className="features-list">
-          <li>
-            <div>
-              <div className="feature-title">User Registration:</div>
-              Elderly individuals can effortlessly register on the platform to
-              access a wide array of services tailored to their needs.
-            </div>
-          </li>
-        </ul>
+      <div className="content-wrapper">
+        <div className="text-center md:text-left">
+          <h2 className="skills-heading ml-12 mb-5 text-center text-xl md:text-4xl">
+            References
+          </h2>
+          <ul className="reference-list">
+            <li>
+              <div>
+                <div className="reference-title">Github:</div>
+
+                <a
+                  href="https://github.com/pankhuri0209/elderlycare"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://github.com/pankhuri0209/elderlycare
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
       <br />
       <br />

@@ -281,3 +281,38 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.content-wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.reference-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  margin: 0 auto; /* Center the list */
+}
+.reference-list li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.reference-list li::before {
+  content: "🔹";
+  margin-right: 10px;
+  font-size: 20px;
+  color: #007bff;
+}
+.reference-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.reference-list a {
+  color: blue;
+  text-decoration: underline;
+}
