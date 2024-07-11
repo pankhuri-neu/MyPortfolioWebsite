@@ -10,8 +10,9 @@ const Navbar = () => {
   const links = [
     { id: 1, link: "projects" },
     { id: 2, link: "about me" },
-    { id: 3, link: "blog" },
-    { id: 4, link: "contact" },
+    { id: 3, link: "resume" },
+    { id: 4, link: "blog" },
+    { id: 5, link: "contact" },
   ];
 
   return (

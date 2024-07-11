@@ -10,19 +10,31 @@ const Footer = () => {
             Say hello and let&#39;s work together!
           </h2>
           <div className="mt-8 flex justify-center md:justify-start space-x-6">
-            <a href="#" className="text-gray-400 hover:text-gray-100">
+            <a
+              href="https://www.instagram.com/pankhuri0209/"
+              className="text-gray-400 hover:text-gray-100"
+            >
               <FaInstagram size={24} />
               <span className="sr-only">Instagram</span>
             </a>
-            <a href="#" className="text-gray-400 hover:text-gray-100">
+            <a
+              href="https://x.com/PANKHURI0209"
+              className="text-gray-400 hover:text-gray-100"
+            >
               <FaTwitter size={24} />
               <span className="sr-only">Twitter</span>
             </a>
-            <a href="#" className="text-gray-400 hover:text-gray-100">
+            <a
+              href="https://www.linkedin.com/in/pankhurigupta0209/"
+              className="text-gray-400 hover:text-gray-100"
+            >
               <FaLinkedin size={24} />
               <span className="sr-only">LinkedIn</span>
             </a>
-            <a href="#" className="text-gray-400 hover:text-gray-100">
+            <a
+              href="mailto:pankhuri0209@gmail.com"
+              className="text-gray-400 hover:text-gray-100"
+            >
               <FaEnvelope size={24} />
               <span className="sr-only">Email</span>
             </a>

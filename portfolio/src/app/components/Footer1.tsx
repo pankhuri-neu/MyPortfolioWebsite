@@ -7,28 +7,28 @@ const Footer1 = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
           <a
-            href="#"
+            href="https://www.instagram.com/pankhuri0209/#"
             className="flex items-center text-gray-400 hover:text-gray-100 space-x-2"
           >
             <FaInstagram size={24} />
             <span>Instagram</span>
           </a>
           <a
-            href="#"
+            href="https://x.com/PANKHURI0209?mx=2"
             className="flex items-center text-gray-400 hover:text-gray-100 space-x-2"
           >
             <FaTwitter size={24} />
             <span>Twitter</span>
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/pankhurigupta0209/"
             className="flex items-center text-gray-400 hover:text-gray-100 space-x-2"
           >
             <FaLinkedin size={24} />
             <span>LinkedIn</span>
           </a>
           <a
-            href="#"
+            href="pankhuri0209@gmail.com"
             className="flex items-center text-gray-400 hover:text-gray-100 space-x-2"
           >
             <FaEnvelope size={24} />
@@ -40,7 +40,8 @@ const Footer1 = () => {
           <div className="flex flex-col items-center md:items-start">
             <span className="text-sm font-medium text-gray-300">Email</span>
             <span className="text-lg font-semibold text-white">
-              hello@pankhurigupta.tech
+              {/* hello@pankhurigupta.tech */}
+              pankhuri0209@gmail.com
             </span>
           </div>
         </div>

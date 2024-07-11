@@ -61,8 +61,10 @@ body {
 } */
 
 .logo-image {
-  width: 100px; /* Adjust size as needed */
-  height: auto; /* Maintain aspect ratio */
+  width: 165px;
+  height: 175px;
+  /* Adjust size as needed */
+  /* Maintain aspect ratio */
 }
 /* .text-content {
   width: 50%;
@@ -247,4 +249,35 @@ body {
   left: 50%;
   font-size: 1.2 rem;
   transform-origin: 0 100px;
+}
+
+.features-list {
+  list-style-type: none;
+  padding: 0;
+}
+.features-list li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.features-list li::before {
+  content: "🔹";
+  margin-right: 10px;
+  font-size: 20px;
+  color: #007bff;
+}
+.feature-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.video-container {
+  margin-top: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

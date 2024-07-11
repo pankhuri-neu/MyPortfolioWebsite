@@ -25,10 +25,10 @@ export default function Home() {
           <br />
           <p className="text-lg md:text-xl">
             a passionate computer science enthusiast pursuing my Master&#39;s at
-            Northeastern University. With four years of software engineering
-            experience in India, I&#39;m on a mission to make waves in tech.
-            Join me as I chase my dreams of joining FAANG and building my own
-            startup!
+            Northeastern University. With over 4 years of experience in building
+            scalable infrastructure and user-centric applications, I&#39;m on a
+            mission to make waves in tech. Join me as I chase my dreams of
+            joining FAANG and building my own startup!
           </p>
         </div>
         <div className="flex justify-center items-center w-full md:w-auto">
@@ -94,10 +94,10 @@ export default function Home() {
                       className="font-semibold text-foreground/90"
                       style={{ color: "#81B72FFF" }}
                     >
-                      Frontend
+                      Full Stack
                     </h3>
                     <h1 className="text-projects">Elderlycare</h1>
-                    <p className="text-small text-foreground/80">
+                    <p className="text-medium text-foreground/80">
                       A web-based solution to improve healthcare accessibility
                       for the elderly, EC-Buddy AI assistant , book doctor
                       <br /> appointments and empower doctors with real-time
@@ -107,20 +107,20 @@ export default function Home() {
                   </div>
                   <div className="flex space-x-4 mt-4 md:mt-0">
                     <img
-                      src="/images/sample/e1.png"
+                      src="/images/elderlycare/logo.png"
                       alt="Logo"
                       className="logo-image"
                     />
                     <img
-                      src="/images/sample/e2.png"
+                      src="/images/elderlycare/hands.jpeg"
                       alt="Logo"
                       className="logo-image"
                     />
-                    <img
+                    {/* <img
                       src="/images/sample/e3.png"
                       alt="Logo"
                       className="logo-image"
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>
@@ -165,21 +165,27 @@ export default function Home() {
                       className="font-semibold text-foreground/90"
                       style={{ color: "#E34D73FF" }}
                     >
-                      Backend
+                      Blockchain, Frontend
                     </h3>
-                    <h1 className="text-projects">Oceanic Feeling</h1>
-                    <p className="text-small text-foreground/80">
-                      Sint occaecat deserunt aliquip do occaecat ut quis.
-                      Cupidatat magna fugiat quis sit duis est in volup
+                    <h1 className="text-projects">Secure Social Share</h1>
+                    <p className="text-medium text-foreground/80">
+                      An E2E encrypted data sharing system with strict, smart
+                      contract-based access control, allowing users to <br />{" "}
+                      securely share sensitive information with their social
+                      circle in a decentralized way. Winner of multiple 1st
+                      place <br />
+                      prizes at ETHBoston 2024.
                     </p>
                   </div>
                   <div className="flex space-x-4 mt-4 md:mt-0">
                     <img
-                      src="/images/sample/e1.png"
+                      src="/images/securesocialshare/lock.jpg"
                       alt="Logo"
                       className="logo-image"
+                      // height="350px"
+                      // width="100"
                     />
-                    <img
+                    {/* <img
                       src="/images/sample/e2.png"
                       alt="Logo"
                       className="logo-image"
@@ -188,35 +194,42 @@ export default function Home() {
                       src="/images/sample/e3.png"
                       alt="Logo"
                       className="logo-image"
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>
             </div>
             <div className="flex justify-start mt-4">
-              <button className="button">
-                View Project
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 25 25"
-                  className="icon"
-                  width="16"
-                  height="16"
-                >
-                  <path
-                    style={{ fill: "#232326" }}
-                    d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"
-                    data-name="Left"
-                  />
-                </svg>
-              </button>
+              <Link href="/secureshare">
+                <button className="button">
+                  View Project
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 25 25"
+                    className="icon"
+                    width="16"
+                    height="16"
+                  >
+                    <path
+                      style={{ fill: "#232326" }}
+                      d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"
+                      data-name="Left"
+                    />
+                  </svg>
+                </button>
+              </Link>
             </div>
           </CardBody>
         </Card>
       </div>
       <div className="col-span-12 md:col-span-8 flex justify-center">
-        <button className="button-browse-projects">Browse All Projects</button>
+        <Link href="/projects">
+          <button className="button-browse-projects">
+            Browse All Projects
+          </button>
+        </Link>
       </div>
+      <br />
       <h1 className="skills-heading ml-12 mb-5 text-center text-2xl md:text-5xl">
         My skills
       </h1>

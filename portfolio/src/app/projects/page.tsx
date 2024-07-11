@@ -33,8 +33,12 @@ const ProjectsPage: React.FC = () => {
           <br />
           <div className="w-full mt-8 md:mt-0">
             <p>
-              Lorem occaecat proident excepteur commodo et nulla eiusmod. Elit
-              esse aute officia dolor elit aute
+              Working on diverse range of projects, including a robotics and
+              computer graphics project for the Kinova Robotic Arm, and an
+              e-commerce platform, cloud-based solutions and worked on data
+              manipulation tools. Advanced Java-based GIS solutions. Hold
+              expertise in both front-end and back-end development.Engaging in
+              providing end-end solutions.{" "}
             </p>
           </div>
         </div>
@@ -71,9 +75,12 @@ const ProjectsPage: React.FC = () => {
                       Frontend
                     </h3>
                     <h1 className="text-projects">Elderlycare</h1>
-                    <p className="text-small text-foreground/80">
-                      Sint occaecat deserunt aliquip do occaecat ut quis.
-                      Cupidatat magna fugiat quis sit duis est in volup
+                    <p className="text-medium text-foreground/80">
+                      A web-based solution to improve healthcare accessibility
+                      for the elderly, EC-Buddy AI assistant , book doctor
+                      <br /> appointments and empower doctors with real-time
+                      access, enhancing operational efficiency and patient
+                      satisfaction
                     </p>
                   </div>
                   <div className="flex space-x-4 mt-4 md:mt-0">

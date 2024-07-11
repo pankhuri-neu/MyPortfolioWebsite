@@ -32,22 +32,25 @@ const ElderlyCarePage = () => {
           <br />
           <div className="w-full mt-8 md:mt-0">
             <p>
-              Non dolore magna ut nisi duis magna minim nulla anim laborum
-              cillum incididunt. Minim excepteur sit dolore elit labore magna
-              aute consectetur dolor cillum non aliqua sint labore laboris
-              tempor occaecat laboris aliqua. Irure non ullamco sit amet aliquip
-              officia duis es
+              A web-based solution aimed at addressing the global challenge of
+              an aging population, resulting in significant improvements in
+              accessibility to healthcare services for elderly individuals
+              Designed and implemented EC-Buddy AI assistant feature,
+              facilitating a high volume of doctor appointments tailored to
+              elderly individuals needs. Empowered doctors with real-time access
+              to appointments, enhancing operational efficiency and patient
+              satisfaction
             </p>
           </div>
         </div>
         <div className="flex flex-col items-start justify-start w-full md:w-1/3 md:ml-8">
           <div className="mb-4 ml-50 md:ml-60">
             <h3 className="font-semibold text-foreground/90">Date</h3>
-            <p className="text-small text-foreground/80">17 May 2024</p>
+            <p className="text-small text-foreground/80">17 April 2024</p>
           </div>
           <div className="mb-4 ml-50 md:ml-60">
             <h3 className="font-semibold text-foreground/90">Project Type</h3>
-            <p className="text-small text-foreground/80">Hackathon</p>
+            <p className="text-small text-foreground/80">Web Design Course</p>
           </div>
         </div>
       </div>
@@ -63,7 +66,7 @@ const ElderlyCarePage = () => {
         </div>
         <br />
         <br />
-        <div className="text-center md:text-left">
+        {/* <div className="text-center md:text-left">
           <h2 className="text-2xl md:text-3xl font-semibold">
             Commodo occaecat
           </h2>
@@ -74,7 +77,7 @@ const ElderlyCarePage = () => {
             occaecat laboris aliqua. Irure non ullamco sit amet aliquip officia
             duis es.
           </p>
-        </div>
+        </div> */}
       </div>
       <br />
 
@@ -101,19 +104,62 @@ const ElderlyCarePage = () => {
         <br />
         <br />
         <div className="text-center md:text-left">
-          <h2 className="text-2xl md:text-3xl font-semibold">
-            Commodo occaecat
-          </h2>
-          <p className="mt-4">
-            Non dolore magna ut nisi duis magna minim nulla anim laborum cillum
-            incididunt. Minim excepteur sit dolore elit labore magna aute
-            consectetur dolor cillum non aliqua sint labore laboris tempor
-            occaecat laboris aliqua. Irure non ullamco sit amet aliquip officia
-            duis es.
-          </p>
+          <h2 className="text-2xl md:text-3xl font-semibold">Features</h2>
+          <ul className="features-list">
+            <li>
+              <div>
+                <div className="feature-title">User Registration:</div>
+                Elderly individuals can effortlessly register on the platform to
+                access a wide array of services tailored to their needs.
+              </div>
+            </li>
+            <li>
+              <div>
+                <div className="feature-title">EC Buddy:</div>
+                This feature leverages ChatGPT APIs and React technology to
+                provide users with immediate assistance for their health-related
+                concerns. Users can ask health-related questions and receive
+                personalized responses and solutions.
+              </div>
+            </li>
+            <li>
+              <div>
+                <div className="feature-title">Language Support:</div>
+                To cater to diverse linguistic needs, ElderlyCare integrates
+                i18next, ensuring that users can access services in their
+                preferred language.
+              </div>
+            </li>
+            <li>
+              <div>
+                <div className="feature-title">Doctor Dashboard:</div>
+                This feature empowers healthcare professionals with insightful
+                analytics based on patient appointments. Doctors can update
+                patient statuses and manage their profiles with ease.
+              </div>
+            </li>
+            <li>
+              <div>
+                <div className="feature-title">Elderly Booking Platform:</div>
+                Elderly users can book appointments with doctors, search for
+                doctors based on location, experience, and ratings, and access
+                personalized healthcare services.
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
-
+      <div className="video-container">
+        <h2 className="skills-heading ml-12 mb-5 text-center text-xl md:text-4xl">
+          Learn More About ElderlyCare
+        </h2>
+        <br />
+        <br />
+        <video width="600" controls>
+          <source src="images/elderlycare/video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
       <div className="flex justify-center mt-16 w-full">
         <Card
           isBlurred
@@ -151,6 +197,22 @@ const ElderlyCarePage = () => {
             </div>
           </CardBody>
         </Card>
+      </div>
+      <br />
+      <br />
+      <div className="text-center md:text-left">
+        <h2 className="skills-heading ml-12 mb-5 text-center text-xl md:text-4xl">
+          References
+        </h2>
+        <ul className="features-list">
+          <li>
+            <div>
+              <div className="feature-title">User Registration:</div>
+              Elderly individuals can effortlessly register on the platform to
+              access a wide array of services tailored to their needs.
+            </div>
+          </li>
+        </ul>
       </div>
       <br />
       <br />
