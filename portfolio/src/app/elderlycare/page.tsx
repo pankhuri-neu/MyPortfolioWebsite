@@ -217,6 +217,19 @@ const ElderlyCarePage = () => {
                 </a>
               </div>
             </li>
+            <li>
+              <div>
+                <div className="reference-title">Linkedln:</div>
+
+                <a
+                  href="https://www.linkedin.com/posts/pankhurigupta0209_elderlyassistance-webdesign-activity-7190042012178395136-pPC7?utm_source=share&utm_medium=member_desktop"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://www.linkedin.com/posts/pankhurigupta0209_elderlyassistance-webdesign-activity-7190042012178395136-pPC7?utm_source=share&utm_medium=member_desktop
+                </a>
+              </div>
+            </li>
           </ul>
         </div>
       </div>

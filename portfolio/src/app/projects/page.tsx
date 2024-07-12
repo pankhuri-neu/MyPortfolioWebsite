@@ -72,7 +72,7 @@ const ProjectsPage: React.FC = () => {
                       className="font-semibold text-foreground/90"
                       style={{ color: "#81B72FFF" }}
                     >
-                      Frontend
+                      Full Stack
                     </h3>
                     <h1 className="text-projects">Elderlycare</h1>
                     <p className="text-medium text-foreground/80">
@@ -85,20 +85,20 @@ const ProjectsPage: React.FC = () => {
                   </div>
                   <div className="flex space-x-4 mt-4 md:mt-0">
                     <img
-                      src="/images/sample/e1.png"
+                      src="/images/elderlycare/logo.png"
                       alt="Logo"
                       className="logo-image"
                     />
                     <img
-                      src="/images/sample/e2.png"
+                      src="/images/elderlycare/hands.jpeg"
                       alt="Logo"
                       className="logo-image"
                     />
-                    <img
+                    {/* <img
                       src="/images/sample/e3.png"
                       alt="Logo"
                       className="logo-image"
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>
@@ -143,21 +143,27 @@ const ProjectsPage: React.FC = () => {
                       className="font-semibold text-foreground/90"
                       style={{ color: "#E34D73FF" }}
                     >
-                      Backend
+                      Blockchain, Frontend
                     </h3>
-                    <h1 className="text-projects">Oceanic Feeling</h1>
-                    <p className="text-small text-foreground/80">
-                      Sint occaecat deserunt aliquip do occaecat ut quis.
-                      Cupidatat magna fugiat quis sit duis est in volup
+                    <h1 className="text-projects">Secure Social Share</h1>
+                    <p className="text-medium text-foreground/80">
+                      An E2E encrypted data sharing system with strict, smart
+                      contract-based access control, allowing users to <br />{" "}
+                      securely share sensitive information with their social
+                      circle in a decentralized way. Winner of multiple 1st
+                      place <br />
+                      prizes at ETHBoston 2024.
                     </p>
                   </div>
                   <div className="flex space-x-4 mt-4 md:mt-0">
                     <img
-                      src="/images/sample/e1.png"
+                      src="/images/securesocialshare/lock.jpg"
                       alt="Logo"
                       className="logo-image"
+                      // height="350px"
+                      // width="100"
                     />
-                    <img
+                    {/* <img
                       src="/images/sample/e2.png"
                       alt="Logo"
                       className="logo-image"
@@ -166,13 +172,13 @@ const ProjectsPage: React.FC = () => {
                       src="/images/sample/e3.png"
                       alt="Logo"
                       className="logo-image"
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>
             </div>
             <div className="flex justify-start mt-4">
-              <Link href="/elderlycare">
+              <Link href="/secureshare">
                 <button className="button">
                   View Project
                   <svg
