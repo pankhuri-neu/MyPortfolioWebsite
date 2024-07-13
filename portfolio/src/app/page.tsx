@@ -148,6 +148,7 @@ export default function Home() {
           </CardBody>
         </Card>
       </div>
+
       <div className="flex justify-center mt-16 w-full">
         <Card
           isBlurred
@@ -256,42 +257,8 @@ export default function Home() {
           <img src="/images/tech/sql.png" alt="Logo" className="skills-image" />
         </div>
       </div>
-      <div className="flex justify-center mt-16 w-full">
-        <Card
-          isBlurred
-          className="border-none bg-background/60 dark:bg-default-100/50 w-full max-w-[1150px] rounded-none"
-          shadow="sm"
-          style={{ backgroundColor: "#F6FBF0FF" }}
-        >
-          <CardBody>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-center">
-              <div className="flex justify-center md:justify-end">
-                <img
-                  src="/images/pics/pic1.png"
-                  alt="Logo"
-                  className="w-60 h-60 md:w-auto md:h-auto"
-                />
-              </div>
-
-              <div className="flex flex-col items-center md:items-start">
-                <h2
-                  className="font-semibold text-foreground/90 text-2xl"
-                  style={{ color: "#E34D73FF" }}
-                >
-                  Life&#39;s Motto
-                </h2>
-                <p className="life-motto-p mt-4 text-center md:text-left">
-                  Embrace challenges, chase dreams, and code my way to success -
-                  from mastering algorithms to crafting innovative solutions.
-                  Each line of code is a step closer to my aspirations:
-                  conquering FAANG, pioneering change, and ultimately, building
-                  my own legacy
-                </p>
-              </div>
-            </div>
-          </CardBody>
-        </Card>
-      </div>
+      <br />
+      <br />
       <h1 className="skills-heading ml-12 mb-5 text-center text-2xl md:text-5xl">
         Blogs
       </h1>

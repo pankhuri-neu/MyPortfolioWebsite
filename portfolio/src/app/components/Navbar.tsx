@@ -10,7 +10,7 @@ const Navbar = () => {
   const links = [
     { id: 1, link: "projects" },
     { id: 2, link: "about me" },
-    { id: 3, link: "resume" },
+    { id: 3, link: "resume", url: "/PANKHURI_RESUME.pdf" },
     { id: 4, link: "blog" },
     { id: 5, link: "contact" },
   ];
@@ -35,7 +35,7 @@ const Navbar = () => {
       </div>
 
       <div className="hidden md:flex space-x-6">
-        {links.map(({ id, link }) => (
+        {links.map(({ id, link, url }) => (
           <li
             key={id}
             className="list-none px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200 link-underline"
@@ -43,7 +43,15 @@ const Navbar = () => {
             onMouseEnter={(e) => (e.currentTarget.style.color = "#F9629F")}
             onMouseLeave={(e) => (e.currentTarget.style.color = "")}
           >
-            <Link href={`/${link.replace(" ", "").toLowerCase()}`}>{link}</Link>
+            {link === "resume" ? (
+              <a href={url} target="_blank" rel="noopener noreferrer">
+                {link}
+              </a>
+            ) : (
+              <Link href={`/${link.replace(" ", "").toLowerCase()}`}>
+                {link}
+              </Link>
+            )}
           </li>
         ))}
       </div>
@@ -57,17 +65,28 @@ const Navbar = () => {
 
       {nav && (
         <ul className="flex flex-col md:flex-row justify-center items-center absolute top-16 left-0 w-full bg-gradient-to-b from-black to-gray-800 text-gray-500 md:static md:h-auto md:bg-transparent md:space-x-6">
-          {links.map(({ id, link }) => (
+          {links.map(({ id, link, url }) => (
             <li
               key={id}
               className="px-6 py-4 cursor-pointer capitalize text-2xl md:text-base md:py-0"
             >
-              <Link
-                onClick={() => setNav(!nav)}
-                href={`/${link.replace(" ", "").toLowerCase()}`}
-              >
-                {link}
-              </Link>
+              {link === "resume" ? (
+                <a
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setNav(!nav)}
+                >
+                  {link}
+                </a>
+              ) : (
+                <Link
+                  onClick={() => setNav(!nav)}
+                  href={`/${link.replace(" ", "").toLowerCase()}`}
+                >
+                  {link}
+                </Link>
+              )}
             </li>
           ))}
         </ul>
