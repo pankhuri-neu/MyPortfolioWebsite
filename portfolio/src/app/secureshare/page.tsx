@@ -22,32 +22,34 @@ const SocialSecureSharePage = () => {
                 fontWeight: "700",
               }}
             >
-              <span style={{ color: "#F9629F" }}>Full Stack</span>
+              <span style={{ color: "#F9629F" }}>Blockchain, Frontend </span>
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
-            ElderlyCare
+            Secure Social Share
           </h1>
           <br />
           <br />
           <div className="w-full mt-8 md:mt-0">
             <p>
-              Non dolore magna ut nisi duis magna minim nulla anim laborum
-              cillum incididunt. Minim excepteur sit dolore elit labore magna
-              aute consectetur dolor cillum non aliqua sint labore laboris
-              tempor occaecat laboris aliqua. Irure non ullamco sit amet aliquip
-              officia duis es
+              Secure Social Share is an E2E encrypted data sharing system with
+              strict, smart contract-based access control, allowing users to
+              securely share sensitive information with their social circle in a
+              decentralized way. Winner of multiple 1st place prizes at
+              ETHBoston 2024.
             </p>
           </div>
         </div>
         <div className="flex flex-col items-start justify-start w-full md:w-1/3 md:ml-8">
           <div className="mb-4 ml-50 md:ml-60">
             <h3 className="font-semibold text-foreground/90">Date</h3>
-            <p className="text-small text-foreground/80">17 May 2024</p>
+            <p className="text-small text-foreground/80">17 April 2024</p>
           </div>
           <div className="mb-4 ml-50 md:ml-60">
             <h3 className="font-semibold text-foreground/90">Project Type</h3>
-            <p className="text-small text-foreground/80">Hackathon</p>
+            <p className="text-small text-foreground/80">
+              EthBoston Hackathon 2k24
+            </p>
           </div>
         </div>
       </div>
@@ -56,14 +58,14 @@ const SocialSecureSharePage = () => {
       <div className="container mx-auto px-8 md:px-32">
         <div className="flex justify-center">
           <img
-            src="images/elderlycare/pic1.png" // Update the path to your image
-            alt="Elderly care"
+            src="images/securesocialshare/lock.jpg" // Update the path to your image
+            alt="securesocialshare"
             className="w-full max-w-3xl rounded-lg shadow-lg"
           />
         </div>
         <br />
         <br />
-        <div className="text-center md:text-left">
+        {/* <div className="text-center md:text-left">
           <h2 className="text-2xl md:text-3xl font-semibold">
             Commodo occaecat
           </h2>
@@ -74,13 +76,13 @@ const SocialSecureSharePage = () => {
             occaecat laboris aliqua. Irure non ullamco sit amet aliquip officia
             duis es.
           </p>
-        </div>
+        </div> */}
       </div>
       <br />
 
       {/* New Section for Image and Additional Content */}
       <div className="container mx-auto px-8 md:px-32">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="flex justify-center">
             <img
               src="images/elderlycare/pic2.png" // Update the path to your image
@@ -97,60 +99,141 @@ const SocialSecureSharePage = () => {
               style={{ maxWidth: "300px" }}
             />
           </div>
-        </div>
+        </div> */}
         <br />
         <br />
         <div className="text-center md:text-left">
           <h2 className="text-2xl md:text-3xl font-semibold">
-            Commodo occaecat
+            Primary objectives
           </h2>
-          <p className="mt-4">
-            Non dolore magna ut nisi duis magna minim nulla anim laborum cillum
-            incididunt. Minim excepteur sit dolore elit labore magna aute
-            consectetur dolor cillum non aliqua sint labore laboris tempor
-            occaecat laboris aliqua. Irure non ullamco sit amet aliquip officia
-            duis es.
-          </p>
+          <ul className="features-list">
+            <li>
+              <div>
+                {/* <div className="feature-title">User Registration:</div> */}A
+                web2 like experience to hold multiple inter-related type of
+                digital assets to be shared with paticipants of the sociential
+                network
+              </div>
+            </li>
+            <li>
+              <div>
+                {/* <div className="feature-title">EC Buddy:</div> */}
+                The participants in the societial network is designated by
+                badges. Tha app gives a configurable way to set these badges
+                example: social worker, primacy doctor, Emergency Medical Team,
+                Public records agent , researcher, etc.., and can be extended to
+                roles like care giver etc
+              </div>
+            </li>
+            <li>
+              <div>
+                {/* <div className="feature-title">Language Support:</div> */}A
+                decentralized way of encrypting data, and sharing data only to
+                qualified custodians set by congigurable rule settings
+              </div>
+            </li>
+            <li>
+              <div>
+                {/* <div className="feature-title">Doctor Dashboard:</div> */}
+                Way to reduce cost for particpants in the network ( gas
+                reduction ) for increased adoption
+              </div>
+            </li>
+            {/* <li>
+              <div>
+                <div className="feature-title">Elderly Booking Platform:</div>
+                Elderly users can book appointments with doctors, search for
+                doctors based on location, experience, and ratings, and access
+                personalized healthcare services.
+              </div>
+            </li> */}
+          </ul>
         </div>
       </div>
+      <div className="video-container">
+        <h2 className="skills-heading ml-12 mb-5 text-center text-xl md:text-4xl">
+          Learn More About Secure Social Share
+        </h2>
+        <br />
+        <br />
+        <video width="600" controls>
+          <source
+            src="/images/securesocialshare/ETHBoston_Secure_Share.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <br />
+      <br />
 
       <div className="flex justify-center mt-16 w-full">
         <Card
           isBlurred
-          className="border-none bg-background/60 dark:bg-default-100/50 w-full max-w-[1150px] rounded-none"
+          className="border-none bg-background/60 dark:bg-default-100/50 w-full max-w-[800px] rounded-none"
           shadow="sm"
           style={{ backgroundColor: "#F6FBF0FF" }}
         >
           <CardBody>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-center">
-              <div className="flex justify-center md:justify-end">
-                <img
-                  src="/images/sample/t1.png"
-                  alt="Logo"
-                  className="w-50 h-50 md:w-auto md:h-auto"
-                />
-              </div>
-
-              <div className="flex flex-col items-center md:items-start">
-                <h2
-                  className="font-semibold text-foreground/90 text-2xl"
-                  style={{ color: "#E34D73FF" }}
-                >
-                  Testimonials
-                </h2>
-                <p className="life-motto-p mt-4 text-center md:text-left">
-                  Very Nice Project I will give 100 out of 100 for the efforts
-                  and the design of the webapp created by pankhuri gupta, she is
-                  an exectiopnal frontend developer
-                </p>{" "}
-                <br />
-                <p className="life-motto-p mt-4 text-center md:text-left">
-                  -Professor
-                </p>
-              </div>
+            <div className="flex justify-center md:justify-end">
+              <img
+                src="/images/securesocialshare/collage.jpg"
+                alt="Logo"
+                className="w-50 h-50 md:w-auto md:h-auto"
+              />
             </div>
           </CardBody>
         </Card>
+      </div>
+      <br />
+      <br />
+      <div className="content-wrapper">
+        <div className="text-center md:text-left">
+          <h2 className="skills-heading ml-12 mb-5 text-center text-xl md:text-4xl">
+            References
+          </h2>
+          <ul className="reference-list">
+            <li>
+              <div>
+                <div className="reference-title">Github:</div>
+
+                <a
+                  href="https://github.com/pankhuri0209/ETHBoston2k24"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://github.com/pankhuri0209/ETHBoston2k24
+                </a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div className="reference-title">Linkedln:</div>
+
+                <a
+                  href="https://www.linkedin.com/feed/update/urn:li:activity:7194818420310265856/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://www.linkedin.com/feed/update/urn:li:activity:7194818420310265856/
+                </a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div className="reference-title">Devpost:</div>
+
+                <a
+                  href="https://devpost.com/software/secure-social-share"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://devpost.com/software/secure-social-share
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
       <br />
       <br />
