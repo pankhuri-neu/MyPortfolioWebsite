@@ -1,3 +1,4 @@
+"use client";
 // pages/index.tsx
 import Image from "next/image";
 import Navbar from "./components/Navbar"; // Ensure this path is correct
@@ -17,7 +18,7 @@ const Home: React.FC = () => {
       >
         Dr. Purnendu Shekhar Pandey
       </h2>
-      <p className="life-motto-p mt-4 text-center md:text-left">
+      <p className="life-motto-p mt-4 ">
         I am pleased to recommend Pankhuri for her outstanding work on the Smart
         Bag project. I had the privilege of supervising Pankhuri and witnessing
         her remarkable skills and dedication firsthand. Pankhuri worked on the

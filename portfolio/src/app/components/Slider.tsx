@@ -1,5 +1,5 @@
-// components/Slider.tsx
 "use client";
+
 import React, { useState } from "react";
 
 interface SliderProps {
@@ -22,11 +22,11 @@ const Slider: React.FC<SliderProps> = ({ testimonials }) => {
   return (
     <div className="slider-container flex justify-center mt-16 w-full">
       <button className="prev-button" onClick={prevSlide}>
-        Previous
+        &lt;
       </button>
       <div className="testimonial-card">{testimonials[currentIndex]}</div>
       <button className="next-button" onClick={nextSlide}>
-        Next
+        &gt;
       </button>
 
       <style jsx>{`
@@ -37,6 +37,8 @@ const Slider: React.FC<SliderProps> = ({ testimonials }) => {
         .testimonial-card {
           flex: 1;
           padding: 1rem;
+          max-width: 100%;
+          text-align: center;
         }
         .prev-button,
         .next-button {
@@ -46,10 +48,23 @@ const Slider: React.FC<SliderProps> = ({ testimonials }) => {
           padding: 0.5rem 1rem;
           cursor: pointer;
           margin: 0 1rem;
+          flex-shrink: 0;
         }
         .prev-button:hover,
         .next-button:hover {
           background-color: #5a9b5e;
+        }
+        @media (max-width: 768px) {
+          .testimonial-card {
+            padding: 0.5rem;
+            text-align: left;
+          }
+          .prev-button,
+          .next-button {
+            padding: 0.25rem 0.5rem;
+            margin: 0 0.5rem;
+            font-size: 1.5rem;
+          }
         }
       `}</style>
     </div>
