@@ -316,3 +316,6 @@ body {
   color: blue;
   text-decoration: underline;
 }
+.italic-text {
+  font-style: italic;
+}

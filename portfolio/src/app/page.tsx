@@ -18,7 +18,14 @@ const Home: React.FC = () => {
       >
         Dr. Purnendu Shekhar Pandey
       </h2>
-      <p className="life-motto-p mt-4 ">
+      <br />
+      <h2
+        className="font-semibold text-foreground/90 text-xl"
+        style={{ color: "#E34D73FF", fontStyle: "italic" }}
+      >
+        Associate Professor & Researcher
+      </h2>
+      <p className=" mt-4 ">
         I am pleased to recommend Pankhuri for her outstanding work on the Smart
         Bag project. I had the privilege of supervising Pankhuri and witnessing
         her remarkable skills and dedication firsthand. Pankhuri worked on the
@@ -50,7 +57,14 @@ const Home: React.FC = () => {
       >
         Naresh Sharma
       </h2>
-      <p className="life-motto-p mt-4 text-center md:text-left">
+      <br />
+      <h2
+        className="font-semibold text-foreground/90 text-xl"
+        style={{ color: "#E34D73FF", fontStyle: "italic" }}
+      >
+        Sr. Technical Manager @ Hexagon
+      </h2>
+      <p className=" mt-4 text-center md:text-left">
         I am pleased to write this recommendation for Pankhuri based on her
         outstanding performance. Pankhuri collaborated with me on various
         projects, and her expertise and dedication were invaluable assets to our
@@ -73,7 +87,14 @@ const Home: React.FC = () => {
       >
         Shivangi Pandey
       </h2>
-      <p className="life-motto-p mt-4 text-center md:text-left">
+      <br />
+      <h2
+        className="font-semibold text-foreground/90 text-xl italic-text"
+        style={{ color: "#E34D73FF", fontStyle: "italic" }}
+      >
+        Senior Software Engineer @ Nagarro
+      </h2>
+      <p className=" mt-4 text-center md:text-left">
         I had the pleasure of working with Pankhuri, and I am continually
         impressed by her exceptional problem-solving skills and dedication.
         Pankhuri played a pivotal role in resolving critical blocker issues that
