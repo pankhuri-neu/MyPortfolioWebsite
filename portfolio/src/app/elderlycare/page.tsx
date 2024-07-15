@@ -215,7 +215,7 @@ const ElderlyCarePage = () => {
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:text-blue-700 break-words"
                 >
-                  https://github.com/pankhuri0209/elderlycare
+                  https://shorturl.at/cP7jf
                 </a>
               </div>
             </li>
@@ -230,7 +230,7 @@ const ElderlyCarePage = () => {
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:text-blue-700 break-words"
                 >
-                  https://app.visily.ai/projects/9d71d03e-34a4-43c9-9b98-0e2d1faeff08/boards/852039
+                  https://shorturl.at/eS8bZ
                 </a>
               </div>
             </li>
@@ -245,7 +245,7 @@ const ElderlyCarePage = () => {
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:text-blue-700 break-words"
                 >
-                  https://www.linkedin.com/posts/pankhurigupta0209_elderlyassistance-webdesign-activity-7190042012178395136-pPC7?utm_source=share&utm_medium=member_desktop
+                  https://shorturl.at/yKcBJ
                 </a>
               </div>
             </li>

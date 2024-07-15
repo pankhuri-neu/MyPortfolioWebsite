@@ -204,7 +204,7 @@ const SocialSecureSharePage = () => {
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:text-blue-700 break-words"
                 >
-                  https://github.com/pankhuri0209/ETHBoston2k24
+                  https://shorturl.at/500lg
                 </a>
               </div>
             </li>
@@ -219,7 +219,7 @@ const SocialSecureSharePage = () => {
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:text-blue-700 break-words"
                 >
-                  https://www.linkedin.com/feed/update/urn:li:activity:7194818420310265856/
+                  https://shorturl.at/9brwS
                 </a>
               </div>
             </li>
