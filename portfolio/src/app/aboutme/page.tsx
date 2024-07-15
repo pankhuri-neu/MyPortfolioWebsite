@@ -24,7 +24,7 @@ export default function AboutMe() {
           <br />
           <br />
           <p className="text-lg md:text-xl">
-            a passionate computer science enthusiast pursuing my Master&#39;s at
+            A passionate computer science enthusiast pursuing my Master&#39;s at
             Northeastern University. With four years of software engineering
             experience in India, I&#39;m on a mission to make waves in tech.
           </p>
@@ -87,14 +87,14 @@ export default function AboutMe() {
                 Northeastern University
               </h2>
               <p className="text-base md:text-lg text-gray-400">
-                In 2022, driven by a growing fascination with the crypto space,
-                I pursued a master’s degree in information systems at
-                Northeastern University, specializing in blockchain technology.
-                This academic pursuit sharpened my Web3 and full-stack
-                development capabilities. The experience has been
-                exhilarating—I’ve connected with brilliant minds at Boston’s
-                tech events, won several hackathons, and immersed myself in the
-                crypto ecosystem and its underlying infrastructure.
+                In 2024, driven by a growing fascination with the Software
+                Engineering, I pursued a master’s degree in Computer Software
+                Engineering at Northeastern University. This academic pursuit
+                sharpened my full-stack development capabilities. The experience
+                has been exhilarating—I’ve connected with brilliant minds at
+                Boston’s tech events, won several hackathons, and immersed
+                myself in the crypto ecosystem and its underlying
+                infrastructure.
               </p>
             </div>
           </div>

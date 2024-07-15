@@ -135,7 +135,7 @@ const Home: React.FC = () => {
           <br />
           <br />
           <p className="text-lg md:text-xl">
-            a passionate computer science enthusiast pursuing my Master&#39;s at
+            A passionate computer science enthusiast pursuing my Master&#39;s at
             Northeastern University. With over 4 years of experience in building
             scalable infrastructure and user-centric applications, I&#39;m on a
             mission to make waves in tech.
