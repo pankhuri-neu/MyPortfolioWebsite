@@ -439,7 +439,7 @@ const Home: React.FC = () => {
       <br />
       <br />
 
-      <h1 className="skills-heading ml-12 mb-5 text-center text-2xl md:text-5xl">
+      {/* <h1 className="skills-heading ml-12 mb-5 text-center text-2xl md:text-5xl">
         Blogs
       </h1>
 
@@ -471,7 +471,7 @@ const Home: React.FC = () => {
             <small>June 27, 2024</small>
           </CardFooter>
         </Card>
-      </div>
+      </div> */}
       <Footer />
     </div>
   );
