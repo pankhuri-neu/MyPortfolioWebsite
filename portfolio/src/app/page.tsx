@@ -132,7 +132,6 @@ const Home: React.FC = () => {
   return (
     <div>
       <Navbar />
-
       <div className="container mx-auto flex flex-col md:flex-row items-center pt-32 px-8 md:px-32 space-y-8 md:space-y-0 md:space-x-8">
         <div className="text-content md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
@@ -194,7 +193,6 @@ const Home: React.FC = () => {
           />
         </div>
       </div>
-
       <div className="flex justify-center mt-16 w-full">
         <Card
           isBlurred
@@ -261,7 +259,6 @@ const Home: React.FC = () => {
           </CardBody>
         </Card>
       </div>
-
       <div className="flex justify-center mt-16 w-full">
         <Card
           isBlurred
@@ -336,7 +333,7 @@ const Home: React.FC = () => {
           </CardBody>
         </Card>
       </div>
-
+      <br /> <br />
       <div className="col-span-12 md:col-span-8 flex justify-center">
         <Link href="/projects">
           <button className="button-browse-projects">
@@ -345,9 +342,11 @@ const Home: React.FC = () => {
         </Link>
       </div>
       <br />
-      <h1 className="skills-heading ml-12 mb-5 text-center text-2xl md:text-5xl">
-        My skills
-      </h1>
+      <div className="col-span-12 md:col-span-8 flex justify-center">
+        <h1 className="skills-heading  mb-5 text-center text-2xl md:text-5xl">
+          My skills
+        </h1>
+      </div>
       <div className="grid grid-cols-12 gap-4">
         <div className="col-span-12 md:col-span-16 flex flex-wrap justify-around items-center gap-4 mt- md:mt-0">
           <img src="/images/tech/css.png" alt="Logo" className="skills-image" />
@@ -432,13 +431,14 @@ const Home: React.FC = () => {
       </div>
       <br />
       <br />
-      <h1 className="skills-heading ml-12 mb-5 text-center text-2xl md:text-5xl">
-        Testimonials
-      </h1>
+      <div className="col-span-12 md:col-span-8 flex justify-center">
+        <h1 className="skills-heading  mb-5 text-center text-2xl md:text-5xl">
+          Testimonials
+        </h1>
+      </div>
       <Slider testimonials={testimonials} />
       <br />
       <br />
-
       {/* <h1 className="skills-heading ml-12 mb-5 text-center text-2xl md:text-5xl">
         Blogs
       </h1>

@@ -4,7 +4,21 @@ import Navbar from "../components/Navbar"; // Ensure this path is correct
 import Footer from "../components/Footer"; // Ensure this path is correct
 import { Card, CardBody, Button, Slider, CardFooter } from "@nextui-org/react";
 import Script from "next/script";
+import React, { useEffect } from "react";
 export default function AboutMe() {
+  useEffect(() => {
+    console.log("Custom script executed!");
+    const textElement = document.querySelector(".text p") as HTMLElement;
+    if (textElement) {
+      textElement.innerHTML = textElement.innerText
+        .split("")
+        .map(
+          (char, i) =>
+            `<span style="transform:rotate(${i * 9.2}deg)">${char}</span>`
+        )
+        .join("");
+    }
+  }, []);
   return (
     <div>
       <Navbar />
@@ -33,7 +47,7 @@ export default function AboutMe() {
           <div className="circle">
             <div className="logo">
               <div className="text">
-                <p>Projects</p>
+                <p>MY {"  "} EXPERIENCE </p>
               </div>
             </div>
           </div>
