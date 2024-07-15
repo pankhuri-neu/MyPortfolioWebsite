@@ -29,36 +29,11 @@ export default function AboutMe() {
             experience in India, I&#39;m on a mission to make waves in tech.
           </p>
         </div>
-        <div className="flex justify-center items-center w-full md:w-auto">
-          {/* <button className="logo-button">
-            <img
-              src="/images/my_projects.png"
-              alt="Logo"
-              className="w-32 h-32 md:w-40 md:h-40"
-            />
-          </button> */}
+        <div className="flex justify-center items-center w-full md:w-1/2 md:justify-end">
           <div className="circle">
             <div className="logo">
               <div className="text">
-                <p>
-                  MY PROJECTS {"        "} MY PROJECTS {"        "} MY PROJECTS
-                </p>
-                <Script
-                  id="custom-script"
-                  dangerouslySetInnerHTML={{
-                    __html: `
-            (function() {
-              console.log('Custom script executed!');
-              const text = document.querySelector('.text p');
-              if (text) {
-                text.innerHTML = text.innerText.split("").map((char, i) => 
-                  \`<span style="transform:rotate(\${i * 9.2}deg)">\${char}</span>\`
-                ).join("");
-              }
-            })();
-          `,
-                  }}
-                />
+                <p>Projects</p>
               </div>
             </div>
           </div>

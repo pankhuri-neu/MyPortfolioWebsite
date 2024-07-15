@@ -27,7 +27,7 @@ const ProjectsPage: React.FC = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center pt-32 px-8 md:px-32 space-y-8 md:space-y-0 md:space-x-8">
         <div className="text-content md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
-            My projects
+            Projects
           </h1>
           <br />
           <br />
@@ -46,7 +46,7 @@ const ProjectsPage: React.FC = () => {
           <div className="circle">
             <div className="logo">
               <div className="text">
-                <p>MY PROJECTS </p>
+                <p>PROJECTS </p>
               </div>
             </div>
           </div>
