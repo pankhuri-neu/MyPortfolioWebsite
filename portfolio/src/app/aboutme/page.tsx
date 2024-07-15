@@ -98,22 +98,48 @@ export default function AboutMe() {
               </p>
             </div>
           </div>
+          {/* <div className="timeline-item relative flex flex-col md:flex-row-reverse items-start md:items-center mb-12">
+            <div className="timeline-dot bg-red-500 absolute left-2 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+            <div className="timeline-content mt-6 md:mt-0 ml-8 md:ml-16 w-full md:w-1/2 md:text-left">
+              <h2 className="text-2xl md:text-3xl text-red-500 mb-4">
+                Hexagon India Pvt. Ltd.
+              </h2>
+              <p className="text-base md:text-lg text-gray-400">
+                My experience at Hexagon Geosystems was a pivotal chapter in my
+                professional journey. As a Software Engineer, I worked on
+                developing Java-based GIS solutions (Luciad Product) for
+                esteemed clients in the Defense, Military, and Aviation
+                industries. This role required a deep understanding of advanced
+                Java concepts, Spring Boot, and Node.js frameworks. I provided
+                technical consulting and collaborated closely with clients to
+                analyze their requirements and implement efficient, stable GIS
+                software solutions. This experience honed my technical skills,
+                enhanced my problem-solving capabilities, and strengthened my
+                ability to deliver high-impact solutions in a dynamic,
+                high-stakes environment.
+              </p>
+            </div>
+          </div> */}
 
           <div className="timeline-item relative flex flex-col md:flex-row items-start md:items-center mb-12">
             <div className="timeline-dot bg-green-500 absolute left-2 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
             <div className="timeline-content mt-6 md:mt-0 mr-8 md:mr-16 w-full md:w-1/2 md:text-right">
               <h2 className="text-2xl md:text-3xl text-green-500 mb-4">
-                Fidelity Investments
+                Hexagon India Pvt. Ltd.
               </h2>
               <p className="text-base md:text-lg text-gray-400">
-                My co-op at Fidelity Labs in 2023 was a defining chapter in my
-                career, as I played a pivotal role in the early stages of a
-                crypto API product for digital asset management. The
-                startup-like atmosphere buzzed with innovation, pushing my
-                creativity and technical excellence to new heights. This
-                experience polished my cloud architecture skills and empowered
-                me to lead a product’s journey from concept to delivery—a
-                journey that profoundly shaped my professional growth.
+                My experience at Hexagon Geosystems was a pivotal chapter in my
+                professional journey. As a Software Engineer, I worked on
+                developing Java-based GIS solutions (Luciad Product) for
+                esteemed clients in the Defense, Military, and Aviation
+                industries. This role required a deep understanding of advanced
+                Java concepts, Spring Boot, and Node.js frameworks. I provided
+                technical consulting and collaborated closely with clients to
+                analyze their requirements and implement efficient, stable GIS
+                software solutions. This experience honed my technical skills,
+                enhanced my problem-solving capabilities, and strengthened my
+                ability to deliver high-impact solutions in a dynamic,
+                high-stakes environment.
               </p>
             </div>
           </div>
@@ -122,6 +148,29 @@ export default function AboutMe() {
             <div className="timeline-dot bg-blue-500 absolute left-2 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
             <div className="timeline-content mt-6 md:mt-0 ml-8 md:ml-16 w-full md:w-1/2 md:text-left">
               <h2 className="text-2xl md:text-3xl text-blue-500 mb-4">
+                Tata Consultancy Services
+              </h2>
+              <p className="text-base md:text-lg text-gray-400">
+                My tenure at Tata Consultancy Services was a transformative
+                period in my career. As a Java Developer, I contributed to
+                developing user interfaces for TCS iON’s Cloud-Based Solutions,
+                utilizing MVC Frameworks and OOPS concepts. Working on the
+                Kettle Spoon tool, I managed data operations involving bulk
+                downloads, inserts, updates, and validations. This role
+                significantly enhanced my technical acumen and problem-solving
+                skills. Collaborating with various clients to monitor issues and
+                execute product development as per their requirements provided
+                me with invaluable experience in client management and product
+                development, shaping my ability to deliver high-quality software
+                solutions effectively.
+              </p>
+            </div>
+          </div>
+
+          <div className="timeline-item relative flex flex-col md:flex-row items-start md:items-center mb-12">
+            <div className="timeline-dot bg-yellow-500 absolute left-2 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+            <div className="timeline-content mt-6 md:mt-0 mr-8 md:mr-16 w-full md:w-1/2 md:text-right">
+              <h2 className="text-2xl md:text-3xl text-yellow-500 mb-4">
                 CRAC Infosystem Private Limited & Four C Plus (Internet) Company
               </h2>
               <p className="text-base md:text-lg text-gray-400">
@@ -137,11 +186,10 @@ export default function AboutMe() {
               </p>
             </div>
           </div>
-
-          <div className="timeline-item relative flex flex-col md:flex-row items-start md:items-center mb-12">
-            <div className="timeline-dot bg-yellow-500 absolute left-2 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
-            <div className="timeline-content mt-6 md:mt-0 mr-8 md:mr-16 w-full md:w-1/2 md:text-right">
-              <h2 className="text-2xl md:text-3xl text-yellow-500 mb-4">
+          <div className="timeline-item relative flex flex-col md:flex-row-reverse items-start md:items-center mb-12">
+            <div className="timeline-dot bg-purple-900 absolute left-2 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+            <div className="timeline-content mt-6 md:mt-0 ml-8 md:ml-16 w-full md:w-1/2 md:text-left">
+              <h2 className="text-2xl md:text-3xl text-purple-900 mb-4">
                 BML Munjal University
               </h2>
               <p className="text-base md:text-lg text-gray-400">
