@@ -77,13 +77,11 @@ export default function AboutMe() {
               </h2>
               <p className="text-base md:text-lg text-gray-400">
                 In 2024, driven by a growing fascination with the Software
-                Engineering, I pursued a master’s degree in Computer Software
+                Engineering, I am pursung a master’s degree in Computer Software
                 Engineering at Northeastern University. This academic pursuit
                 sharpened my full-stack development capabilities. The experience
                 has been exhilarating—I’ve connected with brilliant minds at
-                Boston’s tech events, won several hackathons, and immersed
-                myself in the crypto ecosystem and its underlying
-                infrastructure.
+                Boston’s tech events, won several hackathons.
               </p>
             </div>
           </div>
