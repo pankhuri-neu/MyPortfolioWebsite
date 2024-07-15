@@ -122,18 +122,18 @@ export default function AboutMe() {
             <div className="timeline-dot bg-blue-500 absolute left-2 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
             <div className="timeline-content mt-6 md:mt-0 ml-8 md:ml-16 w-full md:w-1/2 md:text-left">
               <h2 className="text-2xl md:text-3xl text-blue-500 mb-4">
-                Ingram Micro
+                CRAC Infosystem Private Limited & Four C Plus (Internet) Company
               </h2>
               <p className="text-base md:text-lg text-gray-400">
-                In 2018, I joined Ingram Micro as a Software Engineer for 4
-                years. There, I learned the intricacies of elaborate enterprise
-                systems by working in large, agile teams. My role was diverse,
-                ranging from designing consumer-facing APIs and collaborating
-                with interdisciplinary teams, to integrating complex systems
-                through middleware services and scaling the infrastructure to
-                support it all. Crafting internal tools and dashboards that
-                enhanced our team’s efficiency was the most rewarding part of my
-                experience.
+                Internships complemented my academic pursuits by providing
+                practical experience. I interned with CRAC Infosystem Private
+                Limited as a web developer, assisting in website creation using
+                web technologies. At Four C Plus (Internet) Company Limited, a
+                Hindustan Times Syndication company, I designed and developed an
+                e-commerce application using Angular 7.0 and a Desktop
+                Application with Electron. These internships were instrumental
+                in refining my technical skills and gaining invaluable industry
+                insights.
               </p>
             </div>
           </div>
@@ -142,10 +142,26 @@ export default function AboutMe() {
             <div className="timeline-dot bg-yellow-500 absolute left-2 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
             <div className="timeline-content mt-6 md:mt-0 mr-8 md:mr-16 w-full md:w-1/2 md:text-right">
               <h2 className="text-2xl md:text-3xl text-yellow-500 mb-4">
-                University of Mumbai
+                BML Munjal University
               </h2>
               <p className="text-base md:text-lg text-gray-400">
-                Back in 2014, my love for video games and assembling...
+                In 2015, my interest in programming led me to pursue a degree in
+                Computer Engineering at BML Munjal University. This passion grew
+                into a love for solving problems with code. At BML Munjal
+                University, I gained a solid grounding in computer science
+                fundamentals, studying subjects like Object-Oriented
+                Programming, Data Structures and Algorithms, Database Systems,
+                Operating Systems, Big Data Analytics, and Computer Networks. My
+                final year project, ‘Kinova Robotic Arm,’ involved programming
+                the arm to draw alphabetic characters using C++ and computer
+                graphics concepts. A practice school course provided industry
+                exposure, and hands-on projects sharpened my analytical and
+                development skills, preparing me for real-world challenges.
+                Extracurricular activities also played a vital role in my
+                development. I secured second place in the university’s sports
+                festival, contributed to the Sponsorship Team for major events,
+                and honed my ability to develop and pitch innovative solutions
+                in the ‘BMU Pitchers’ business idea competition.
               </p>
             </div>
           </div>

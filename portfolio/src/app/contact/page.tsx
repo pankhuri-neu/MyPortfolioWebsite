@@ -17,22 +17,30 @@ const ContactPage = () => {
           <br />
           <br />
           <div className="w-full mt-8 md:mt-0">
-            <form className="space-y-4">
+            <form
+              action="https://formspree.io/f/mzzpzvvq"
+              method="POST"
+              className="space-y-4"
+            >
               <div>
                 <input
                   type="email"
                   id="email"
+                  name="email"
                   className="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-pink-500 focus:border-pink-500 sm:text-base"
                   placeholder="Your email address"
+                  required
                 />
               </div>
               <br />
               <div>
                 <textarea
                   id="message"
+                  name="message"
                   className="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-pink-500 focus:border-pink-500 sm:text-base"
                   placeholder="Describe your project"
-                  //  rows="4"
+                  rows="4"
+                  required
                 ></textarea>
               </div>
               <br />
