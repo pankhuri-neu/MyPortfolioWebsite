@@ -92,7 +92,7 @@ const Footer = () => {
       </div>
 
       <div className="mt-8 text-center text-gray-400 text-sm md:text-base">
-        &copy; 2024 Pankhuri Gupta. Privacy · Terms · Sitemap
+        &copy; 2024 Pankhuri Gupta
       </div>
     </footer>
   );
