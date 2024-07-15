@@ -20,7 +20,7 @@ const Slider: React.FC<SliderProps> = ({ testimonials }) => {
   };
 
   return (
-    <div className="slider-container flex justify-center mt-16 w-full">
+    <div className="slider-container flex justify-center  w-full">
       <button className="prev-button" onClick={prevSlide}>
         &lt;
       </button>

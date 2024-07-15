@@ -355,6 +355,65 @@ const Home: React.FC = () => {
             className="skills-image"
           />
           <img src="/images/tech/sql.png" alt="Logo" className="skills-image" />
+          <img
+            src="/images/tech/nodejs.png"
+            alt="Logo"
+            className="skills-image"
+          />
+          <img
+            src="/images/tech/react.png"
+            alt="Logo"
+            className="skills-image"
+          />
+          <img
+            src="/images/tech/angular.png"
+            alt="Logo"
+            className="skills-image"
+          />
+        </div>
+        <div className="col-span-12 md:col-span-16 flex flex-wrap justify-around items-center gap-4 mt- md:mt-0">
+          <img src="/images/tech/ts.png" alt="Logo" className="skills-image" />
+          <img
+            src="/images/tech/spring.png"
+            alt="Logo"
+            className="skills-image"
+          />
+          <img src="/images/tech/c.png" alt="Logo" className="skills-image" />
+          <img
+            src="/images/tech/csharp.png"
+            alt="Logo"
+            className="skills-image"
+          />
+          <img
+            src="/images/tech/postgres.png"
+            alt="Logo"
+            className="skills-image"
+          />
+          <img
+            src="/images/tech/javafx.png"
+            alt="Logo"
+            className="skills-image"
+          />
+          <img
+            src="/images/tech/mongodb.png"
+            alt="Logo"
+            className="skills-image"
+          />
+          <img
+            src="/images/tech/kettle.png"
+            alt="Logo"
+            className="skills-image"
+          />
+          <img
+            src="/images/tech/github.png"
+            alt="Logo"
+            className="skills-image"
+          />
+          <img
+            src="/images/tech/intellij.png"
+            alt="Logo"
+            className="skills-image"
+          />
         </div>
       </div>
       <br />
