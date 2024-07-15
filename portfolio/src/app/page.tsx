@@ -20,7 +20,7 @@ const Home: React.FC = () => {
       </h2>
       <br />
       <h2
-        className="font-semibold text-foreground/90 text-xl"
+        className=" text-foreground/90 text-xl"
         style={{ color: "#E34D73FF", fontStyle: "italic" }}
       >
         Associate Professor & Researcher
@@ -59,7 +59,7 @@ const Home: React.FC = () => {
       </h2>
       <br />
       <h2
-        className="font-semibold text-foreground/90 text-xl"
+        className=" text-foreground/90 text-xl"
         style={{ color: "#E34D73FF", fontStyle: "italic" }}
       >
         Sr. Technical Manager @ Hexagon
@@ -89,7 +89,7 @@ const Home: React.FC = () => {
       </h2>
       <br />
       <h2
-        className="font-semibold text-foreground/90 text-xl italic-text"
+        className=" text-foreground/90 text-xl italic-text"
         style={{ color: "#E34D73FF", fontStyle: "italic" }}
       >
         Senior Software Engineer @ Nagarro
@@ -138,8 +138,7 @@ const Home: React.FC = () => {
             a passionate computer science enthusiast pursuing my Master&#39;s at
             Northeastern University. With over 4 years of experience in building
             scalable infrastructure and user-centric applications, I&#39;m on a
-            mission to make waves in tech. Join me as I chase my dreams of
-            joining FAANG and building my own startup!
+            mission to make waves in tech.
           </p>
           <div className="flex justify-start mt-4">
             <Link href="/aboutme">

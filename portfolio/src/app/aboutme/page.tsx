@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Navbar from "../components/Navbar"; // Ensure this path is correct
 import Footer from "../components/Footer"; // Ensure this path is correct
@@ -26,8 +27,6 @@ export default function AboutMe() {
             a passionate computer science enthusiast pursuing my Master&#39;s at
             Northeastern University. With four years of software engineering
             experience in India, I&#39;m on a mission to make waves in tech.
-            Join me as I chase my dreams of joining FAANG and building my own
-            startup!
           </p>
         </div>
         <div className="flex justify-center items-center w-full md:w-auto">
@@ -75,6 +74,97 @@ export default function AboutMe() {
         </div>
       </div>
       {/* till */}
+
+      <div className="relative container mx-auto px-4 py-16 min-h-screen">
+        <div className="absolute inset-0 flex justify-start md:justify-center items-center">
+          <div className="w-1 bg-pink-500 h-full ml-4 md:ml-0"></div>
+        </div>
+        <div className="relative z-10 w-full">
+          <div className="timeline-item relative flex flex-col md:flex-row-reverse items-start md:items-center mb-12">
+            <div className="timeline-dot bg-red-500 absolute left-2 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+            <div className="timeline-content mt-6 md:mt-0 ml-8 md:ml-16 w-full md:w-1/2 md:text-left">
+              <h2 className="text-2xl md:text-3xl text-red-500 mb-4">
+                Northeastern University
+              </h2>
+              <p className="text-base md:text-lg text-gray-400">
+                In 2022, driven by a growing fascination with the crypto space,
+                I pursued a master’s degree in information systems at
+                Northeastern University, specializing in blockchain technology.
+                This academic pursuit sharpened my Web3 and full-stack
+                development capabilities. The experience has been
+                exhilarating—I’ve connected with brilliant minds at Boston’s
+                tech events, won several hackathons, and immersed myself in the
+                crypto ecosystem and its underlying infrastructure.
+              </p>
+            </div>
+          </div>
+
+          <div className="timeline-item relative flex flex-col md:flex-row items-start md:items-center mb-12">
+            <div className="timeline-dot bg-green-500 absolute left-2 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+            <div className="timeline-content mt-6 md:mt-0 mr-8 md:mr-16 w-full md:w-1/2 md:text-right">
+              <h2 className="text-2xl md:text-3xl text-green-500 mb-4">
+                Fidelity Investments
+              </h2>
+              <p className="text-base md:text-lg text-gray-400">
+                My co-op at Fidelity Labs in 2023 was a defining chapter in my
+                career, as I played a pivotal role in the early stages of a
+                crypto API product for digital asset management. The
+                startup-like atmosphere buzzed with innovation, pushing my
+                creativity and technical excellence to new heights. This
+                experience polished my cloud architecture skills and empowered
+                me to lead a product’s journey from concept to delivery—a
+                journey that profoundly shaped my professional growth.
+              </p>
+            </div>
+          </div>
+
+          <div className="timeline-item relative flex flex-col md:flex-row-reverse items-start md:items-center mb-12">
+            <div className="timeline-dot bg-blue-500 absolute left-2 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+            <div className="timeline-content mt-6 md:mt-0 ml-8 md:ml-16 w-full md:w-1/2 md:text-left">
+              <h2 className="text-2xl md:text-3xl text-blue-500 mb-4">
+                Ingram Micro
+              </h2>
+              <p className="text-base md:text-lg text-gray-400">
+                In 2018, I joined Ingram Micro as a Software Engineer for 4
+                years. There, I learned the intricacies of elaborate enterprise
+                systems by working in large, agile teams. My role was diverse,
+                ranging from designing consumer-facing APIs and collaborating
+                with interdisciplinary teams, to integrating complex systems
+                through middleware services and scaling the infrastructure to
+                support it all. Crafting internal tools and dashboards that
+                enhanced our team’s efficiency was the most rewarding part of my
+                experience.
+              </p>
+            </div>
+          </div>
+
+          <div className="timeline-item relative flex flex-col md:flex-row items-start md:items-center mb-12">
+            <div className="timeline-dot bg-yellow-500 absolute left-2 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+            <div className="timeline-content mt-6 md:mt-0 mr-8 md:mr-16 w-full md:w-1/2 md:text-right">
+              <h2 className="text-2xl md:text-3xl text-yellow-500 mb-4">
+                University of Mumbai
+              </h2>
+              <p className="text-base md:text-lg text-gray-400">
+                Back in 2014, my love for video games and assembling...
+              </p>
+            </div>
+          </div>
+        </div>
+        <style jsx>{`
+          .timeline-item {
+            position: relative;
+          }
+          .timeline-dot {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+          }
+          .timeline-content {
+            padding: 30px;
+          }
+        `}</style>
+      </div>
+
       <div className="flex justify-center mt-16 w-full">
         <Card
           isBlurred
@@ -103,8 +193,7 @@ export default function AboutMe() {
                   Embrace challenges, chase dreams, and code my way to success -
                   from mastering algorithms to crafting innovative solutions.
                   Each line of code is a step closer to my aspirations:
-                  conquering FAANG, pioneering change, and ultimately, building
-                  my own legacy
+                  pioneering change, and ultimately, building my own legacy
                 </p>
               </div>
             </div>
