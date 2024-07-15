@@ -42,7 +42,11 @@ const Footer = () => {
         </div>
 
         <div className="w-full md:w-1/2 mt-8 md:mt-0">
-          <form className="space-y-4">
+          <form
+            action="https://formspree.io/f/mzzpzvvq"
+            method="POST"
+            className="space-y-4"
+          >
             <div>
               <label
                 htmlFor="email"
@@ -53,8 +57,10 @@ const Footer = () => {
               <input
                 type="email"
                 id="email"
+                name="email"
                 className="mt-1 block w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-pink-500 focus:border-pink-500 sm:text-base"
                 placeholder="Your email address"
+                required
               />
             </div>
             <div>
@@ -66,9 +72,11 @@ const Footer = () => {
               </label>
               <textarea
                 id="message"
+                name="message"
                 className="mt-1 block w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-pink-500 focus:border-pink-500 sm:text-base"
                 placeholder="Describe your project"
                 rows={4}
+                required
               ></textarea>
             </div>
             <div>

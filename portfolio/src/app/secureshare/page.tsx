@@ -187,20 +187,22 @@ const SocialSecureSharePage = () => {
       </div>
       <br />
       <br />
-      <div className="content-wrapper">
+      <div className="content-wrapper px-4 md:px-12 py-8">
         <div className="text-center md:text-left">
-          <h2 className="skills-heading ml-12 mb-5 text-center text-xl md:text-4xl">
+          <h2 className="skills-heading mb-5 text-2xl md:text-4xl">
             References
           </h2>
-          <ul className="reference-list">
+          <ul className="reference-list space-y-4">
             <li>
               <div>
-                <div className="reference-title">Github:</div>
-
+                <div className="reference-title text-lg md:text-xl font-semibold">
+                  GitHub:
+                </div>
                 <a
                   href="https://github.com/pankhuri0209/ETHBoston2k24"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="text-blue-500 hover:text-blue-700 break-words"
                 >
                   https://github.com/pankhuri0209/ETHBoston2k24
                 </a>
@@ -208,12 +210,14 @@ const SocialSecureSharePage = () => {
             </li>
             <li>
               <div>
-                <div className="reference-title">Linkedln:</div>
-
+                <div className="reference-title text-lg md:text-xl font-semibold">
+                  LinkedIn:
+                </div>
                 <a
                   href="https://www.linkedin.com/feed/update/urn:li:activity:7194818420310265856/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="text-blue-500 hover:text-blue-700 break-words"
                 >
                   https://www.linkedin.com/feed/update/urn:li:activity:7194818420310265856/
                 </a>
@@ -221,12 +225,14 @@ const SocialSecureSharePage = () => {
             </li>
             <li>
               <div>
-                <div className="reference-title">Devpost:</div>
-
+                <div className="reference-title text-lg md:text-xl font-semibold">
+                  Devpost:
+                </div>
                 <a
                   href="https://devpost.com/software/secure-social-share"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="text-blue-500 hover:text-blue-700 break-words"
                 >
                   https://devpost.com/software/secure-social-share
                 </a>
@@ -235,6 +241,7 @@ const SocialSecureSharePage = () => {
           </ul>
         </div>
       </div>
+
       <br />
       <br />
       <h1 className="skills-heading ml-12 mb-5 text-center text-2xl md:text-5xl">
