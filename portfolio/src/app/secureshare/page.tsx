@@ -244,7 +244,7 @@ const SocialSecureSharePage = () => {
 
       <br />
       <br />
-      <h1 className="skills-heading ml-12 mb-5 text-center text-2xl md:text-5xl">
+      {/* <h1 className="skills-heading ml-12 mb-5 text-center text-2xl md:text-5xl">
         Other Projects
       </h1>
 
@@ -278,7 +278,7 @@ const SocialSecureSharePage = () => {
         </Card>
       </div>
       <br />
-      <br />
+      <br /> */}
       <Footer />
     </div>
   );

@@ -15,7 +15,7 @@ export default function AboutMe() {
           </h1>
           <div className="flex justify-center md:hidden mt-4">
             <img
-              src="/images/profile.png"
+              src="/images/pics/pic3.png"
               alt="Profile Picture"
               className="w-60 h-70 rounded-lg"
             />
@@ -66,7 +66,7 @@ export default function AboutMe() {
         </div>
         <div className="hidden md:flex justify-center md:justify-end w-full md:w-auto">
           <Image
-            src="/images/profile.png" // Ensure this path is correct
+            src="/images/pics/pic3.png" // Ensure this path is correct
             alt="Profile Picture"
             width={400}
             height={300}

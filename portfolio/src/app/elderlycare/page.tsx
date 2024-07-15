@@ -222,6 +222,21 @@ const ElderlyCarePage = () => {
             <li>
               <div>
                 <div className="reference-title text-lg md:text-xl font-semibold">
+                  Figma Design:
+                </div>
+                <a
+                  href="https://app.visily.ai/projects/9d71d03e-34a4-43c9-9b98-0e2d1faeff08/boards/852039"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:text-blue-700 break-words"
+                >
+                  https://app.visily.ai/projects/9d71d03e-34a4-43c9-9b98-0e2d1faeff08/boards/852039
+                </a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div className="reference-title text-lg md:text-xl font-semibold">
                   LinkedIn:
                 </div>
                 <a
@@ -240,7 +255,7 @@ const ElderlyCarePage = () => {
 
       <br />
       <br />
-      <h1 className="skills-heading ml-12 mb-5 text-center text-2xl md:text-5xl">
+      {/* <h1 className="skills-heading ml-12 mb-5 text-center text-2xl md:text-5xl">
         Other Projects
       </h1>
 
@@ -274,7 +289,7 @@ const ElderlyCarePage = () => {
         </Card>
       </div>
       <br />
-      <br />
+      <br /> */}
       <Footer />
     </div>
   );

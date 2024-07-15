@@ -33,10 +33,7 @@ const BlogPage: React.FC = () => {
           <br />
           <br />
           <div className="w-full mt-8 md:mt-0">
-            <p>
-              Lorem occaecat proident excepteur commodo et nulla eiusmod. Elit
-              esse aute officia dolor elit aute
-            </p>
+            <p>Coming Soon!!!!!!!</p>
           </div>
         </div>
         <div className="flex justify-center items-center w-full md:w-1/2 md:justify-end">
@@ -68,13 +65,10 @@ const BlogPage: React.FC = () => {
                       className="font-semibold text-foreground/90"
                       style={{ color: "#E34D73FF" }}
                     >
-                      Backend
+                      Lorem Ipsum
                     </h3>
                     <h1 className="text-projects">Oceanic Feeling</h1>
-                    <p className="text-small text-foreground/80">
-                      Sint occaecat deserunt aliquip do occaecat ut quis.
-                      Cupidatat magna fugiat quis sit duis est in volup
-                    </p>
+                    <p className="text-small text-foreground/80">Coming Soon</p>
                   </div>
                   <div className="flex space-x-4 mt-4 md:mt-0">
                     <img
@@ -97,24 +91,24 @@ const BlogPage: React.FC = () => {
               </div>
             </div>
             <div className="flex justify-start mt-4">
-              <Link href="/elderlycare">
-                <button className="button">
-                  View Project
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 25 25"
-                    className="icon"
-                    width="16"
-                    height="16"
-                  >
-                    <path
-                      style={{ fill: "#232326" }}
-                      d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"
-                      data-name="Left"
-                    />
-                  </svg>
-                </button>
-              </Link>
+              {/* <Link href="/elderlycare"> */}
+              <button className="button">
+                View Project
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 25 25"
+                  className="icon"
+                  width="16"
+                  height="16"
+                >
+                  <path
+                    style={{ fill: "#232326" }}
+                    d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"
+                    data-name="Left"
+                  />
+                </svg>
+              </button>
+              {/* </Link> */}
             </div>
           </CardBody>
         </Card>

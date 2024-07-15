@@ -141,6 +141,26 @@ const Home: React.FC = () => {
             mission to make waves in tech. Join me as I chase my dreams of
             joining FAANG and building my own startup!
           </p>
+          <div className="flex justify-start mt-4">
+            <Link href="/aboutme">
+              <button className="button" style={{ color: "rgb(227, 77, 115)" }}>
+                More about me
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 25 25"
+                  className="icon"
+                  width="16"
+                  height="16"
+                >
+                  <path
+                    style={{ fill: "#232326" }}
+                    d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"
+                    data-name="Left"
+                  />
+                </svg>
+              </button>
+            </Link>
+          </div>
         </div>
         <div className="flex justify-center items-center w-full md:w-auto">
           <div className="circle">
