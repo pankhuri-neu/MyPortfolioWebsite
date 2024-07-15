@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between">
         <div className="md:w-1/2">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6">
-            Say hello and let&#39;s work together!
+            Hello and let&#39;s work together!
           </h2>
           <div className="mt-8 flex justify-center md:justify-start space-x-6">
             <a

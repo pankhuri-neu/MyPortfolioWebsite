@@ -11,7 +11,7 @@ const ContactPage = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center pt-32 px-8 md:px-32 space-y-8 md:space-y-0 md:space-x-8">
         <div className="text-content md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
-            Say hello and let&#39;s work <br />
+            Hello and let&#39;s work <br />
             together!
           </h1>
           <br />
@@ -54,7 +54,7 @@ const ContactPage = () => {
             </form>
           </div>
         </div>
-        <div className="flex justify-center items-center w-full md:w-auto">
+        <div className="hidden flex justify-center items-center w-full md:w-auto">
           <button className="logo-button">
             <img
               src="/images/contactme.png"
