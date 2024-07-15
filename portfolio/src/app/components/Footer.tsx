@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white py-10">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between">
         <div className="md:w-1/2">
-          <h2 className="text-custom mb-6">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6">
             Say hello and let&#39;s work together!
           </h2>
           <div className="mt-8 flex justify-center md:justify-start space-x-6">
@@ -46,7 +46,7 @@ const Footer = () => {
             <div>
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-gray-300"
+                className="block text-sm md:text-base font-medium text-gray-300"
               >
                 Email
               </label>
@@ -60,7 +60,7 @@ const Footer = () => {
             <div>
               <label
                 htmlFor="message"
-                className="block text-sm font-medium text-gray-300"
+                className="block text-sm md:text-base font-medium text-gray-300"
               >
                 Input your message
               </label>
@@ -68,7 +68,7 @@ const Footer = () => {
                 id="message"
                 className="mt-1 block w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-pink-500 focus:border-pink-500 sm:text-base"
                 placeholder="Describe your project"
-                // rows="4"
+                rows={4}
               ></textarea>
             </div>
             <div>
@@ -83,7 +83,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-8 text-center text-gray-400">
+      <div className="mt-8 text-center text-gray-400 text-sm md:text-base">
         &copy; 2024 Pankhuri Gupta. Privacy · Terms · Sitemap
       </div>
     </footer>
