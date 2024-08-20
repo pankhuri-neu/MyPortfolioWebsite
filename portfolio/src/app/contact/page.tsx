@@ -63,7 +63,7 @@ const ContactPage = () => {
             />
           </button>
         </div>
-        <div className="hidden md:flex justify-center items-center w-full md:w-auto">
+        {/* <div className="hidden md:flex justify-center items-center w-full md:w-auto">
           <Image
             src="/images/pics/pic2.png" // Ensure this path is correct
             alt="Profile Picture"
@@ -71,7 +71,7 @@ const ContactPage = () => {
             height={400}
             className="rounded-lg"
           />
-        </div>
+        </div> */}
       </div>
       <br />
       <br />
