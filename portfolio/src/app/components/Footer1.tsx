@@ -15,7 +15,7 @@ const Footer1 = () => {
               <span className="sr-only">Instagram</span>
             </a>
             <a
-              href="https://x.com/PANKHURI0209"
+              href="https://x.com/Pankhurig0209"
               className="text-gray-400 hover:text-gray-100"
             >
               <FaTwitter size={24} />
