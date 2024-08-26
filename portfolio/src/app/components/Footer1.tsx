@@ -1,5 +1,11 @@
 import React from "react";
-import { FaInstagram, FaTwitter, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import {
+  FaGithub,
+  FaInstagram,
+  FaTwitter,
+  FaLinkedin,
+  FaEnvelope,
+} from "react-icons/fa";
 
 const Footer1 = () => {
   return (
@@ -7,6 +13,14 @@ const Footer1 = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         <div className="md:w-1/2">
           <div className="mt-8 flex justify-center md:justify-start space-x-6">
+            <a
+              href="https://github.com/pankhuri0209"
+              className="text-gray-400 hover:text-gray-100"
+            >
+              <FaGithub size={24} />
+              <span className="sr-only">Github</span>
+            </a>
+
             <a
               href="https://www.instagram.com/pankhuri0209/"
               className="text-gray-400 hover:text-gray-100"
