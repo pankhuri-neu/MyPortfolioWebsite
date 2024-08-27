@@ -413,7 +413,7 @@ const Home: React.FC = () => {
             className="skills-image"
           />
           <img
-            src="/images/tech/kettle.png"
+            src="/images/tech/nextjs.png"
             alt="Logo"
             className="skills-image"
           />
