@@ -153,12 +153,12 @@ const ProjectsPage: React.FC = () => {
                   <img
                     src="/images/elderlycare/logo.png"
                     alt="Logo"
-                    className="w-20 h-20 object-cover"
+                    className="w-24 h-24 md:w-40 md:h-40 object-contain flex-shrink-0"
                   />
                   <img
                     src="/images/elderlycare/hands.jpeg"
                     alt="Logo"
-                    className="w-20 h-20 object-cover"
+                    className="w-24 h-24 md:w-40 md:h-40 object-contain flex-shrink-0"
                   />
                 </div>
               </div>
@@ -224,7 +224,7 @@ const ProjectsPage: React.FC = () => {
                   <img
                     src="/images/securesocialshare/lock.jpg"
                     alt="Logo"
-                    className="w-20 h-20 object-cover"
+                    className="w-24 h-24 md:w-40 md:h-40 object-contain flex-shrink-0"
                   />
                 </div>
               </div>
@@ -256,6 +256,80 @@ const ProjectsPage: React.FC = () => {
                 </p>
                 <div className="flex justify-start mt-4">
                   <Link href="/secureshare">
+                    <button className="button">
+                      View Project
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 25 25"
+                        className="icon w-4 h-4"
+                      >
+                        <path
+                          style={{ fill: "#232326" }}
+                          d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"
+                        />
+                      </svg>
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </CardBody>
+        </Card>
+        {/* Cloud native application Project Card */}
+        <Card
+          isBlurred
+          className="border-none bg-background/60 dark:bg-default-100/50 w-full max-w-[1150px] rounded-none"
+          shadow="sm"
+          style={{ backgroundColor: "#F0F8FF" }}
+        >
+          <CardBody>
+            <div className="grid grid-cols-12 gap-6 md:gap-8 items-center">
+              {/* Image Section */}
+              <div className="col-span-12 md:col-span-5 flex justify-center">
+                <div className="flex space-x-4">
+                  <img
+                    src="/images/cloud/aws-services.png"
+                    alt="Logo"
+                    className="w-24 h-24 md:w-40 md:h-40 object-contain flex-shrink-0"
+                  />
+                </div>
+              </div>
+
+              {/* Text Content */}
+              <div className="col-span-12 md:col-span-7">
+                <h3
+                  className="font-semibold text-lg md:text-xl"
+                  style={{ color: "#E34D73FF" }}
+                >
+                  AWS, Terraform
+                </h3>
+                <h1 className="text-2xl font-bold">
+                  <a
+                    href="https://github.com/orgs/002478905/repositories"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    Cloud Native Application
+                  </a>
+                </h1>
+                <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
+                  Developed a cloud-native user management application using
+                  Node.js, Express.js, and PostgreSQL, supporting concurrent
+                  requests, CRUD operations, health monitoring, and robust
+                  backend services with high availability. Provisioned AWS
+                  infrastructure using Terraform and Packer, deploying VPCs,
+                  RDS, Route 53, and SSL certificates. Integrated AWS SNS and
+                  Lambda for event-driven workflows, including Mailgun email
+                  verification. Secured services with Systemd and network
+                  security groups. Enhanced scalability with EC2 Auto Scaling
+                  and Elastic Load Balancing, enabling faster deployments.
+                  Implemented a CI/CD pipeline via GitHub Actions, automating
+                  testing, AMI creation, and rolling updates for seamless
+                  deployment.
+                </p>
+                <div className="flex justify-start mt-4">
+                  <Link href="/cloud">
                     <button className="button">
                       View Project
                       <svg
