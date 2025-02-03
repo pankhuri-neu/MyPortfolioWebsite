@@ -24,38 +24,121 @@ const ProjectsPage: React.FC = () => {
     <div>
       <Navbar />
 
-      <div className="container mx-auto flex flex-col md:flex-row items-center pt-32 px-8 md:px-32 space-y-8 md:space-y-0 md:space-x-8">
-        <div className="text-content md:w-1/2 text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
-            Projects
-          </h1>
-          <br />
-          <br />
-          <div className="w-full mt-8 md:mt-0">
-            <p>
-              Working on diverse range of projects, including a robotics and
-              computer graphics project for the Kinova Robotic Arm, and an
-              e-commerce platform, cloud-based solutions and worked on data
-              manipulation tools. Advanced Java-based GIS solutions. Hold
-              expertise in both front-end and back-end development.Engaging in
-              providing end-end solutions.{" "}
-            </p>
+      <div className="container mx-auto px-8 md:px-16 lg:px-24 xl:px-32 pt-32">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
+          {/* Text Content Section (Expands to 2/3 Width on Large Screens) */}
+          <div className="md:col-span-2 space-y-8">
+            <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
+              Projects
+            </h1>
+
+            <div className="space-y-6 text-lg text-gray-700">
+              {/* Web & Cloud Solutions */}
+              <div>
+                <h2 className="text-2xl font-semibold flex items-center">
+                  🚀 Web & Cloud Solutions
+                </h2>
+                <ul className="list-disc list-inside pl-5">
+                  <li>
+                    Designed and deployed{" "}
+                    <strong>scalable e-commerce platforms</strong> using{" "}
+                    <strong>AWS, Terraform, and microservices</strong>.
+                  </li>
+                  <li>
+                    Built <strong>cloud-based applications</strong> with
+                    auto-scaling, CI/CD pipelines, and high availability.
+                  </li>
+                  <li>
+                    Developed <strong>secure REST APIs</strong> and GraphQL
+                    services for efficient data communication.
+                  </li>
+                </ul>
+              </div>
+
+              {/* Data & GIS Applications */}
+              <div>
+                <h2 className="text-2xl font-semibold flex items-center">
+                  📊 Data & GIS Applications
+                </h2>
+                <ul className="list-disc list-inside pl-5">
+                  <li>
+                    Engineered <strong>Java-based GIS solutions</strong> for
+                    spatial data analysis and visualization.
+                  </li>
+                  <li>
+                    Implemented{" "}
+                    <strong>data-driven decision-making tools</strong> using
+                    PostgreSQL, MongoDB, and ElasticSearch.
+                  </li>
+                  <li>
+                    Created <strong>automated ETL pipelines</strong> for
+                    large-scale data processing and analytics.
+                  </li>
+                </ul>
+              </div>
+
+              {/* Blockchain & FinTech */}
+              <div>
+                <h2 className="text-2xl font-semibold flex items-center">
+                  🔗 Blockchain & FinTech
+                </h2>
+                <ul className="list-disc list-inside pl-5">
+                  <li>
+                    Developed <strong>crypto-based payment platforms</strong>{" "}
+                    like <strong>Pay2Fix</strong>, enabling{" "}
+                    <strong>micropayments via smart contracts</strong>.
+                  </li>
+                  <li>
+                    Designed <strong>Ethereum-based DeFi solutions</strong> with
+                    secure wallet integrations and tokenized assets.
+                  </li>
+                </ul>
+              </div>
+
+              {/* AI & Robotics */}
+              <div>
+                <h2 className="text-2xl font-semibold flex items-center">
+                  🤖 AI & Robotics
+                </h2>
+                <ul className="list-disc list-inside pl-5">
+                  <li>
+                    Built a{" "}
+                    <strong>computer vision-powered control system</strong> for
+                    the <strong>Kinova Robotic Arm</strong>.
+                  </li>
+                  <li>
+                    Developed <strong>robotic path-planning algorithms</strong>{" "}
+                    for autonomous navigation.
+                  </li>
+                  <li>
+                    Optimized <strong>sensor fusion techniques</strong> to
+                    enhance robotic precision.
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="flex justify-center items-center w-full md:w-1/2 md:justify-end">
-          <div className="circle">
-            <div className="logo">
-              <div className="text">
-                <p>PROJECTS </p>
+
+          {/* Circular Design Element (Takes up 1/3 Width) */}
+          <div className="flex justify-center md:justify-end items-center">
+            <div className="circle">
+              <div className="logo">
+                <div className="text">
+                  <p className="uppercase tracking-wide font-semibold">
+                    Projects
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <br />
       <br />
 
-      <div className="flex justify-center mt-16 w-full">
+      <div className="flex flex-col items-center space-y-16 mt-16 w-full">
+        {/* Elderlycare Project Card */}
         <Card
           isBlurred
           className="border-none bg-background/60 dark:bg-default-100/50 w-full max-w-[1150px] rounded-none"
@@ -63,70 +146,70 @@ const ProjectsPage: React.FC = () => {
           style={{ backgroundColor: "#F6FBF0FF" }}
         >
           <CardBody>
-            <div className="grid grid-cols-12 md:grid-cols-24 gap-6 md:gap-4 items-center justify-center">
-              <div className="relative col-span-12 md:col-span-10"></div>
-              <div className="flex flex-col col-span-12 md:col-span-14">
-                <div className="flex flex-col md:flex-row justify-between items-start">
-                  <div className="flex flex-col gap-2 md:gap-0">
-                    <h3
-                      className="font-semibold text-foreground/90"
-                      style={{ color: "#81B72FFF" }}
-                    >
-                      Full Stack
-                    </h3>
-                    <h1 className="text-projects">Elderlycare</h1>
-                    <p className="text-medium text-foreground/80">
-                      A web-based solution to improve healthcare accessibility
-                      for the elderly, EC-Buddy AI assistant , book doctor
-                      <br /> appointments and empower doctors with real-time
-                      access, enhancing operational efficiency and patient
-                      satisfaction
-                    </p>
-                  </div>
-                  <div className="flex space-x-4 mt-4 md:mt-0">
-                    <img
-                      src="/images/elderlycare/logo.png"
-                      alt="Logo"
-                      className="logo-image"
-                    />
-                    <img
-                      src="/images/elderlycare/hands.jpeg"
-                      alt="Logo"
-                      className="logo-image"
-                    />
-                    {/* <img
-                      src="/images/sample/e3.png"
-                      alt="Logo"
-                      className="logo-image"
-                    /> */}
-                  </div>
+            <div className="grid grid-cols-12 gap-6 md:gap-8 items-center">
+              {/* Image Section */}
+              <div className="col-span-12 md:col-span-5 flex justify-center">
+                <div className="flex space-x-4">
+                  <img
+                    src="/images/elderlycare/logo.png"
+                    alt="Logo"
+                    className="w-20 h-20 object-cover"
+                  />
+                  <img
+                    src="/images/elderlycare/hands.jpeg"
+                    alt="Logo"
+                    className="w-20 h-20 object-cover"
+                  />
+                </div>
+              </div>
+
+              {/* Text Content */}
+              <div className="col-span-12 md:col-span-7">
+                <h3
+                  className="font-semibold text-lg md:text-xl"
+                  style={{ color: "#81B72FFF" }}
+                >
+                  Full Stack
+                </h3>
+                <h1 className="text-2xl font-bold">
+                  <a
+                    href="https://github.com/pankhuri0209/elderlycare"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    Elderlycare
+                  </a>
+                </h1>
+                <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
+                  A web-based solution to improve healthcare accessibility for
+                  the elderly, EC-Buddy AI assistant, book doctor appointments,
+                  and empower doctors with real-time access, enhancing
+                  operational efficiency and patient satisfaction.
+                </p>
+                <div className="flex justify-start mt-4">
+                  <Link href="/elderlycare">
+                    <button className="button">
+                      View Project
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 25 25"
+                        className="icon w-4 h-4"
+                      >
+                        <path
+                          style={{ fill: "#232326" }}
+                          d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"
+                        />
+                      </svg>
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
-            <div className="flex justify-start mt-4">
-              <Link href="/elderlycare">
-                <button className="button">
-                  View Project
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 25 25"
-                    className="icon"
-                    width="16"
-                    height="16"
-                  >
-                    <path
-                      style={{ fill: "#232326" }}
-                      d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"
-                      data-name="Left"
-                    />
-                  </svg>
-                </button>
-              </Link>
-            </div>
           </CardBody>
         </Card>
-      </div>
-      <div className="flex justify-center mt-16 w-full">
+
+        {/* Secure Social Share Project Card */}
         <Card
           isBlurred
           className="border-none bg-background/60 dark:bg-default-100/50 w-full max-w-[1150px] rounded-none"
@@ -134,68 +217,61 @@ const ProjectsPage: React.FC = () => {
           style={{ backgroundColor: "#FDF2F4FF" }}
         >
           <CardBody>
-            <div className="grid grid-cols-12 md:grid-cols-24 gap-6 md:gap-4 items-center justify-center">
-              <div className="relative col-span-12 md:col-span-10"></div>
-              <div className="flex flex-col col-span-12 md:col-span-14">
-                <div className="flex flex-col md:flex-row justify-between items-start">
-                  <div className="flex flex-col gap-2 md:gap-0">
-                    <h3
-                      className="font-semibold text-foreground/90"
-                      style={{ color: "#E34D73FF" }}
-                    >
-                      Blockchain, Frontend
-                    </h3>
-                    <h1 className="text-projects">Secure Social Share</h1>
-                    <p className="text-medium text-foreground/80">
-                      An E2E encrypted data sharing system with strict, smart
-                      contract-based access control, allowing users to <br />{" "}
-                      securely share sensitive information with their social
-                      circle in a decentralized way. Winner of multiple 1st
-                      place <br />
-                      prizes at ETHBoston 2024.
-                    </p>
-                  </div>
-                  <div className="flex space-x-4 mt-4 md:mt-0">
-                    <img
-                      src="/images/securesocialshare/lock.jpg"
-                      alt="Logo"
-                      className="logo-image"
-                      // height="350px"
-                      // width="100"
-                    />
-                    {/* <img
-                      src="/images/sample/e2.png"
-                      alt="Logo"
-                      className="logo-image"
-                    />
-                    <img
-                      src="/images/sample/e3.png"
-                      alt="Logo"
-                      className="logo-image"
-                    /> */}
-                  </div>
+            <div className="grid grid-cols-12 gap-6 md:gap-8 items-center">
+              {/* Image Section */}
+              <div className="col-span-12 md:col-span-5 flex justify-center">
+                <div className="flex space-x-4">
+                  <img
+                    src="/images/securesocialshare/lock.jpg"
+                    alt="Logo"
+                    className="w-20 h-20 object-cover"
+                  />
                 </div>
               </div>
-            </div>
-            <div className="flex justify-start mt-4">
-              <Link href="/secureshare">
-                <button className="button">
-                  View Project
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 25 25"
-                    className="icon"
-                    width="16"
-                    height="16"
+
+              {/* Text Content */}
+              <div className="col-span-12 md:col-span-7">
+                <h3
+                  className="font-semibold text-lg md:text-xl"
+                  style={{ color: "#E34D73FF" }}
+                >
+                  Blockchain, Frontend
+                </h3>
+                <h1 className="text-2xl font-bold">
+                  <a
+                    href="https://devpost.com/software/secure-social-share"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
                   >
-                    <path
-                      style={{ fill: "#232326" }}
-                      d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"
-                      data-name="Left"
-                    />
-                  </svg>
-                </button>
-              </Link>
+                    Secure Social Share
+                  </a>
+                </h1>
+                <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
+                  An E2E encrypted data sharing system with strict, smart
+                  contract-based access control, allowing users to securely
+                  share sensitive information with their social circle in a
+                  decentralized way. Winner of multiple 1st place prizes at
+                  ETHBoston 2024.
+                </p>
+                <div className="flex justify-start mt-4">
+                  <Link href="/secureshare">
+                    <button className="button">
+                      View Project
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 25 25"
+                        className="icon w-4 h-4"
+                      >
+                        <path
+                          style={{ fill: "#232326" }}
+                          d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"
+                        />
+                      </svg>
+                    </button>
+                  </Link>
+                </div>
+              </div>
             </div>
           </CardBody>
         </Card>

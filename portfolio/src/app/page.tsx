@@ -8,7 +8,13 @@ import Script from "next/script";
 import Link from "next/link";
 import React, { useEffect } from "react";
 import Slider from "./components/Slider";
-
+import {
+  FaGithub,
+  FaInstagram,
+  FaTwitter,
+  FaLinkedin,
+  FaEnvelope,
+} from "react-icons/fa";
 const Home: React.FC = () => {
   useEffect(() => {
     console.log("Custom script executed!");
@@ -137,6 +143,44 @@ const Home: React.FC = () => {
           <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
             Hello 👋 , <br />I am Pankhuri <br />A Software Engineer
           </h1>
+          <div className="mt-8 flex justify-center md:justify-start space-x-6">
+            <a
+              href="https://github.com/pankhuri0209"
+              className="text-gray-400 hover:text-gray-100"
+            >
+              <FaGithub size={24} />
+              <span className="sr-only">Github</span>
+            </a>
+
+            <a
+              href="https://www.instagram.com/pankhuri0209/"
+              className="text-gray-400 hover:text-gray-100"
+            >
+              <FaInstagram size={24} />
+              <span className="sr-only">Instagram</span>
+            </a>
+            <a
+              href="https://x.com/Pankhurig0209"
+              className="text-gray-400 hover:text-gray-100"
+            >
+              <FaTwitter size={24} />
+              <span className="sr-only">Twitter</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/pankhurigupta0209/"
+              className="text-gray-400 hover:text-gray-100"
+            >
+              <FaLinkedin size={24} />
+              <span className="sr-only">LinkedIn</span>
+            </a>
+            <a
+              href="mailto:pankhuri0209@gmail.com"
+              className="text-gray-400 hover:text-gray-100"
+            >
+              <FaEnvelope size={24} />
+              <span className="sr-only">Email</span>
+            </a>
+          </div>
           <div className="flex justify-center md:hidden mt-4">
             <img
               src="/images/profile.png"
