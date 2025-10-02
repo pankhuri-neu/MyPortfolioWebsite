@@ -245,42 +245,73 @@ const Home: React.FC = () => {
           style={{ backgroundColor: "#F6FBF0FF" }}
         >
           <CardBody>
-            <div className="grid grid-cols-12 md:grid-cols-24 gap-6 md:gap-4 items-center justify-center">
-              <div className="relative col-span-12 md:col-span-10"></div>
-              <div className="flex flex-col col-span-12 md:col-span-14">
-                <div className="flex flex-col md:flex-row justify-between items-start">
-                  <div className="flex flex-col gap-2 md:gap-0">
-                    <h3
-                      className="font-semibold text-foreground/90"
-                      style={{ color: "#81B72FFF" }}
-                    >
-                      Full Stack
-                    </h3>
-                    <h1 className="text-projects">Elderlycare</h1>
-                    <p className="text-medium text-foreground/80">
-                      A web-based solution to improve healthcare accessibility
-                      for the elderly, EC-Buddy AI assistant , book doctor
-                      <br /> appointments and empower doctors with real-time
-                      access, enhancing operational efficiency and patient
-                      satisfaction
-                    </p>
-                  </div>
-                  <div className="flex space-x-4 mt-4 md:mt-0">
+            <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-6">
+              {/* Left side: Content */}
+              <div>
+                {/* Table with 2 columns */}
+                <div className="inline-grid grid-cols-[auto_auto] gap-x-3 gap-y-2 mb-4">
+                  {/* Column 1, Row 1 */}
+                  <h3
+                    className="font-semibold text-foreground/90"
+                    style={{ color: "#81B72FFF" }}
+                  >
+                    MERN Stack
+                  </h3>
+
+                  {/* Column 2, Row 1 (spans 2 rows) */}
+                  <div className="flex gap-2 items-center row-span-2">
                     <img
-                      src="/images/elderlycare/logo.png"
-                      alt="Logo"
-                      className="logo-image"
+                      src="/images/tech/react.png"
+                      alt="React"
+                      className="w-12 h-12 object-contain"
                     />
                     <img
-                      src="/images/elderlycare/hands.jpeg"
-                      alt="Logo"
-                      className="logo-image"
+                      src="/images/tech/nodejs.png"
+                      alt="Node.js"
+                      className="w-12 h-12 object-contain"
+                    />
+                    <img
+                      src="/images/tech/mongodb.png"
+                      alt="Mongo.js"
+                      className="w-12 h-12 object-contain"
+                    />
+                    <img
+                      src="/images/tech/github.png"
+                      alt="github.js"
+                      className="w-12 h-12 object-contain"
                     />
                   </div>
+
+                  {/* Column 1, Row 2 */}
+                  <h1 className="text-projects">Elderlycare</h1>
                 </div>
+
+                {/* Description */}
+                <p className="text-medium text-foreground/80">
+                  A web-based solution to improve healthcare accessibility for
+                  the elderly, EC-Buddy AI assistant, book doctor appointments
+                  and empower doctors with real-time access, enhancing
+                  operational efficiency and patient satisfaction
+                </p>
+              </div>
+
+              {/* Right side: Images */}
+              <div className="flex gap-4 items-start">
+                <img
+                  src="/images/elderlycare/logo.png"
+                  alt="Logo"
+                  className="logo-image"
+                />
+                <img
+                  src="/images/elderlycare/hands.jpeg"
+                  alt="Hands"
+                  className="logo-image"
+                />
               </div>
             </div>
-            <div className="flex justify-start mt-4">
+
+            {/* View Project button */}
+            <div className="flex justify-start">
               <Link href="/elderlycare">
                 <button className="button">
                   View Project

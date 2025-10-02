@@ -69,6 +69,27 @@ export default function AboutMe() {
           <div className="w-1 bg-pink-500 h-full ml-4 md:ml-0"></div>
         </div>
         <div className="relative z-10 w-full">
+          <div className="timeline-item relative flex flex-col md:flex-row items-start md:items-center mb-12">
+            <div className="timeline-dot bg-orange-500 absolute left-2 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+            <div className="timeline-content mt-6 md:mt-0 mr-8 md:mr-16 w-full md:w-1/2 md:text-right">
+              <h2 className="text-2xl md:text-3xl text-orange-500 mb-4">
+                Amazon Web Services (AWS)- SDE Intern
+              </h2>
+              <p className="text-base md:text-lg text-gray-400">
+                During my internship at Amazon Web Services, I designed and
+                developed a real-time Purchase Order Auditor system for AWS
+                Marketplace. I leveraged AWS services such as SNS, SQS, Lambda,
+                and DynamoDB to build a scalable, fault-tolerant architecture
+                that processed over one million invoice events per month in near
+                real-time. I optimized CloudWatch metrics and alarms to enable
+                proactive incident detection and cut mean time to detection by
+                over 40%. My work improved system resiliency and audit
+                reliability, validated purchase order metadata, and helped
+                detect silent failures, reducing manual escalations and issue
+                resolution time from days to under two hours.
+              </p>
+            </div>
+          </div>
           <div className="timeline-item relative flex flex-col md:flex-row-reverse items-start md:items-center mb-12">
             <div className="timeline-dot bg-red-500 absolute left-2 md:left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
             <div className="timeline-content mt-6 md:mt-0 ml-8 md:ml-16 w-full md:w-1/2 md:text-left">

@@ -22,7 +22,7 @@ const ElderlyCarePage = () => {
                 fontWeight: "700",
               }}
             >
-              <span style={{ color: "#F9629F" }}>Full Stack</span>
+              <span style={{ color: "#F9629F" }}>MERN Stack</span>
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
@@ -56,7 +56,7 @@ const ElderlyCarePage = () => {
       </div>
       <br />
       <br />
-      <div className="container mx-auto px-8 md:px-32">
+      {/* <div className="container mx-auto px-8 md:px-32">
         <div className="flex justify-center">
           <img
             src="images/elderlycare/pic1.png" // Update the path to your image
@@ -66,19 +66,8 @@ const ElderlyCarePage = () => {
         </div>
         <br />
         <br />
-        {/* <div className="text-center md:text-left">
-          <h2 className="text-2xl md:text-3xl font-semibold">
-            Commodo occaecat
-          </h2>
-          <p className="mt-4">
-            Non dolore magna ut nisi duis magna minim nulla anim laborum cillum
-            incididunt. Minim excepteur sit dolore elit labore magna aute
-            consectetur dolor cillum non aliqua sint labore laboris tempor
-            occaecat laboris aliqua. Irure non ullamco sit amet aliquip officia
-            duis es.
-          </p>
-        </div> */}
-      </div>
+       
+      </div> */}
       <br />
 
       {/* New Section for Image and Additional Content */}
@@ -86,7 +75,7 @@ const ElderlyCarePage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="flex justify-center">
             <img
-              src="images/elderlycare/pic2.png" // Update the path to your image
+              src="images/elderlycare/pic1.png" // Update the path to your image
               alt="Elderly care"
               className="w-full max-w-s  rounded-lg shadow-lg"
               style={{ maxWidth: "1000px" }}

@@ -169,7 +169,7 @@ const ProjectsPage: React.FC = () => {
                   className="font-semibold text-lg md:text-xl"
                   style={{ color: "#81B72FFF" }}
                 >
-                  Full Stack
+                  MERN Stack
                 </h3>
                 <h1 className="text-2xl font-bold">
                   <a
@@ -178,7 +178,7 @@ const ProjectsPage: React.FC = () => {
                     rel="noopener noreferrer"
                     className="hover:underline"
                   >
-                    Elderlycare
+                    ElderlyCare
                   </a>
                 </h1>
                 <p className="text-base md:text-lg text-foreground/80 leading-relaxed">

@@ -13,10 +13,11 @@ const Navbar = () => {
     {
       id: 3,
       link: "resume",
-      url: "https://drive.google.com/file/d/1cMlrsfIeCIP2P80eZGwLef1IaobLznDY/view",
+      url: "/Pankhuri_Gupta_Resume.pdf",
     },
-    { id: 4, link: "blog" },
-    { id: 5, link: "contact" },
+    { id: 4, link: "hackathons" },
+    { id: 5, link: "blog" },
+    { id: 6, link: "contact" },
   ];
 
   return (
